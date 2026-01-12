@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Millionspay - Documentação SDK Checkout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#eef9ff',
+              100: '#d8f1ff',
+              200: '#b9e7ff',
+              300: '#89d9ff',
+              400: '#52c2ff',
+              500: '#2aa3ff',
+              600: '#1485f7',
+              700: '#0d6de3',
+              800: '#1158b8',
+              900: '#144b91',
+              950: '#112e58',
+            },
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+    
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    
+    /* Active sidebar link */
+    .sidebar-link.active { 
+      color: #0d6de3;
+      background: linear-gradient(to right, #eef9ff, transparent);
+      border-left-color: #0d6de3;
+    }
+    .sidebar-link {
+      border-left: 2px solid transparent;
+      transition: all 0.15s ease;
+    }
+    .sidebar-link:hover {
+      color: #0d6de3;
+      background: #f8fafc;
+    }
+    
+    /* Code blocks */
+    .code-block {
+      background: #0f172a;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .code-block pre {
+      margin: 0;
+      padding: 1rem;
+      overflow-x: auto;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .code-block code {
+      font-family: 'JetBrains Mono', monospace;
+      color: #e2e8f0;
+    }
+    .code-header {
+      background: #1e293b;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #334155;
+    }
+    .code-header span {
+      font-size: 12px;
+      color: #94a3b8;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    /* Syntax highlighting */
+    .token-string { color: #a5d6ff; }
+    .token-number { color: #79c0ff; }
+    .token-key { color: #7dd3fc; }
+    .token-comment { color: #6b7280; }
+    .token-keyword { color: #ff7b72; }
+    
+    /* Copy button */
+    .copy-btn {
+      background: #334155;
+      color: #94a3b8;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .copy-btn:hover { background: #475569; color: #fff; }
+    .copy-btn.copied { background: #22c55e; color: #fff; }
+    
+    /* HTTP Methods */
+    .method-post { background: #22c55e; }
+    .method-get { background: #3b82f6; }
+    .method-put { background: #f59e0b; }
+    .method-delete { background: #ef4444; }
+    
+    /* Callouts */
+    .callout { border-radius: 6px; padding: 1rem; margin: 1rem 0; }
+    .callout-info { background: #eff6ff; border-left: 3px solid #3b82f6; }
+    .callout-warning { background: #fffbeb; border-left: 3px solid #f59e0b; }
+    .callout-success { background: #f0fdf4; border-left: 3px solid #22c55e; }
+    
+    /* Table styling */
+    .doc-table { border-collapse: separate; border-spacing: 0; }
+    .doc-table th { 
+      background: #f8fafc; 
+      font-weight: 600;
+      text-align: left;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #475569;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .doc-table td { 
+      padding: 12px 16px; 
+      border-bottom: 1px solid #f1f5f9;
+      font-size: 14px;
+    }
+    .doc-table tr:last-child td { border-bottom: none; }
+    .doc-table tr:hover td { background: #f8fafc; }
+    
+    /* Parameter badges */
+    .param-required { 
+      background: #fee2e2; 
+      color: #dc2626; 
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .param-optional { 
+      background: #f1f5f9; 
+      color: #64748b; 
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    
+    /* Mobile sidebar toggle */
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 40;
+    }
+    .sidebar-overlay.active { display: block; }
+    
+    @media (max-width: 1023px) {
+      .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+      .sidebar.active { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+  <!-- Top Header -->
+  <header class="fixed top-0 left-0 right-0 h-14 bg-white border-b border-slate-200 z-50 flex items-center px-4 lg:px-6">
+    <div class="flex items-center gap-3">
+      <!-- Mobile menu button -->
+      <button onclick="toggleSidebar()" class="lg:hidden p-2 -ml-2 text-slate-600 hover:text-slate-900">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+      
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-brand-700 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">M</span>
+        </div>
+        <span class="font-semibold text-slate-900 hidden sm:inline">Millionspay</span>
+        <span class="text-slate-400 hidden sm:inline">|</span>
+        <span class="text-slate-600 text-sm hidden sm:inline">Documentação</span>
+      </a>
+    </div>
+    
+    <div class="ml-auto flex items-center gap-4">
+      <!-- Search -->
+      <div class="hidden md:flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-slate-500 text-sm w-64">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <span>Buscar na documentação...</span>
+        <kbd class="ml-auto bg-white px-1.5 py-0.5 rounded text-xs text-slate-400 border border-slate-200">⌘K</kbd>
+      </div>
+      
+      <!-- API Status -->
+      <div class="hidden lg:flex items-center gap-2 text-sm">
+        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+        <span class="text-slate-600">API Online</span>
+      </div>
+      
+      <!-- Login -->
+      <a href="#" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-brand-700 text-white text-sm font-medium rounded-lg hover:bg-brand-800 transition">
+        Acessar Portal
+      </a>
+    </div>
+  </header>
+
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar fixed top-14 left-0 w-72 h-[calc(100vh-3.5rem)] bg-white border-r border-slate-200 overflow-y-auto z-50 lg:translate-x-0">
+    <nav class="p-4">
+      <!-- Getting Started -->
+      <div class="mb-6">
+        <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 px-3">Primeiros Passos</h3>
+        <a href="#introducao" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Introdução</a>
+        <a href="#autenticacao" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Token de Autenticação</a>
+        <a href="#ambientes" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Ambientes</a>
+      </div>
+      
+      <!-- Checkout -->
+      <div class="mb-6">
+        <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 px-3">Checkout</h3>
+        <a href="#checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Visão Geral</a>
+        <a href="#como-funciona" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Como Funciona</a>
+        <a href="#personalizacao" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Personalização</a>
+        <a href="#checkout-recorrente" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Checkout Recorrente</a>
+      </div>
+      
+      <!-- API Reference -->
+      <div class="mb-6">
+        <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 px-3">API Reference</h3>
+        <a href="#criar-checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">
+          <span class="inline-flex items-center gap-2">
+            <span class="w-11 text-center px-1.5 py-0.5 bg-green-100 text-green-700 text-[10px] font-medium rounded">POST</span>
+            Criar Checkout
+          </span>
+        </a>
+        <a href="#consultar-checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">
+          <span class="inline-flex items-center gap-2">
+            <span class="w-11 text-center px-1.5 py-0.5 bg-blue-100 text-blue-700 text-[10px] font-medium rounded">GET</span>
+            Consultar Checkout
+          </span>
+        </a>
+        <a href="#inativar-checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">
+          <span class="inline-flex items-center gap-2">
+            <span class="w-11 text-center px-1.5 py-0.5 bg-green-100 text-green-700 text-[10px] font-medium rounded">POST</span>
+            Inativar Checkout
+          </span>
+        </a>
+        <a href="#ativar-checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">
+          <span class="inline-flex items-center gap-2">
+            <span class="w-11 text-center px-1.5 py-0.5 bg-green-100 text-green-700 text-[10px] font-medium rounded">POST</span>
+            Ativar Checkout
+          </span>
+        </a>
+      </div>
+      
+      <!-- Reference -->
+      <div class="mb-6">
+        <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 px-3">Referência</h3>
+        <a href="#objeto-checkout" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Objeto Checkout</a>
+        <a href="#payment-methods" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Meios de Pagamento</a>
+        <a href="#erros" class="sidebar-link block px-3 py-2 text-sm text-slate-700 rounded-md">Códigos de Erro</a>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="lg:ml-72 pt-14">
+    <div class="max-w-4xl mx-auto px-6 py-10">
+      
+      <!-- Introdução -->
+      <section id="introducao" class="mb-16">
+        <div class="flex items-center gap-2 text-sm text-slate-500 mb-4">
+          <a href="#" class="hover:text-brand-700">Docs</a>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+          <span class="text-slate-900">SDK Checkout</span>
+        </div>
+        
+        <h1 class="text-4xl font-bold text-slate-900 mb-4">Documentação SDK Checkout</h1>
+        <p class="text-lg text-slate-600 leading-relaxed mb-8">
+          Guia completo para implementar o SDK de Checkout da Millionspay em sua página de pagamento. 
+          Aceite pagamentos via Pix, cartão de crédito, débito e boleto de forma simples e segura.
+        </p>
+        
+        <div class="flex flex-wrap gap-3 mb-8">
+          <a href="#criar-checkout" class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-700 text-white text-sm font-medium rounded-lg hover:bg-brand-800 transition">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            Começar Integração
+          </a>
+          <a href="#autenticacao" class="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-300 text-slate-700 text-sm font-medium rounded-lg hover:bg-slate-50 transition">
+            Obter Token
+          </a>
+        </div>
+        
+        <!-- Quick info cards -->
+        <div class="grid sm:grid-cols-3 gap-4">
+          <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+            <div class="text-2xl font-bold text-slate-900">REST</div>
+            <div class="text-sm text-slate-600">API Architecture</div>
+          </div>
+          <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+            <div class="text-2xl font-bold text-slate-900">JSON</div>
+            <div class="text-sm text-slate-600">Formato de dados</div>
+          </div>
+          <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+            <div class="text-2xl font-bold text-slate-900">HTTPS</div>
+            <div class="text-sm text-slate-600">Comunicação segura</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Token de Autenticação -->
+      <section id="autenticacao" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Token de Autenticação</h2>
+        <p class="text-slate-600 mb-6">
+          Os tokens de autenticação garantem a identidade do usuário ou aplicação ao acessar as APIs da Millionspay, sem a necessidade de enviar credenciais sensíveis em cada solicitação.
+        </p>
+        
+        <div id="ambientes" class="space-y-4 mb-6">
+          <!-- Sandbox -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <div class="flex items-center gap-3 px-4 py-3 bg-slate-50 border-b border-slate-200">
+              <span class="w-2 h-2 bg-amber-500 rounded-full"></span>
+              <span class="font-medium text-slate-900">Ambiente Sandbox</span>
+              <span class="ml-auto text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded">Testes</span>
+            </div>
+            <div class="p-4">
+              <ol class="space-y-2 text-sm text-slate-600">
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">1</span>
+                  <span>Acesse o <a href="#" class="text-brand-700 hover:underline font-medium">Portal do Desenvolvedor Millionspay</a></span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">2</span>
+                  <span>Clique na aba <strong>Tokens</strong></span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">3</span>
+                  <span>Copie seu token de sandbox</span>
+                </li>
+              </ol>
+            </div>
+          </div>
+          
+          <!-- Produção -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <div class="flex items-center gap-3 px-4 py-3 bg-slate-50 border-b border-slate-200">
+              <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+              <span class="font-medium text-slate-900">Ambiente de Produção</span>
+              <span class="ml-auto text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Live</span>
+            </div>
+            <div class="p-4">
+              <ol class="space-y-2 text-sm text-slate-600">
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">1</span>
+                  <span>Acesse sua conta <a href="#" class="text-brand-700 hover:underline font-medium">Millionspay</a></span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">2</span>
+                  <span>No menu lateral, selecione <strong>Venda online</strong> > <strong>Integrações</strong></span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="flex-shrink-0 w-5 h-5 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-medium">3</span>
+                  <span>Clique em <strong>Gerar Token</strong></span>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        
+        <div class="callout callout-info">
+          <div class="flex gap-3">
+            <svg class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <div>
+              <p class="font-medium text-blue-900 mb-1">Nota</p>
+              <p class="text-sm text-blue-800">
+                Algumas APIs requerem, além do token de autenticação, dados como <code class="bg-blue-100 px-1.5 py-0.5 rounded text-xs">client_id</code> e <code class="bg-blue-100 px-1.5 py-0.5 rounded text-xs">client_secret</code>, obtidos através da API Connect.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Base URLs -->
+        <div class="mt-6">
+          <h3 class="text-lg font-semibold text-slate-900 mb-3">URLs Base</h3>
+          <div class="code-block">
+            <div class="code-header">
+              <span>Endpoints</span>
+            </div>
+            <pre><code><span class="token-comment"># Sandbox</span>
+https://sandbox.api.millionspay.com.br
+
+<span class="token-comment"># Produção</span>
+https://api.millionspay.com.br</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- Checkout Overview -->
+      <section id="checkout" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Checkout e Link de Pagamento</h2>
+        <p class="text-slate-600 mb-6">
+          A API de Checkout da Millionspay oferece uma solução completa para simplificar o processo de pagamento online. Gere links compartilháveis que direcionam os clientes a uma página de pagamento segura.
+        </p>
+        
+        <div class="grid sm:grid-cols-2 gap-4 mb-8">
+          <div class="p-5 border border-slate-200 rounded-lg hover:border-brand-300 hover:shadow-sm transition">
+            <div class="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center mb-3">
+              <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-900 mb-1">Checkout</h3>
+            <p class="text-sm text-slate-600">Redirecione clientes para o ambiente de pagamento seguro.</p>
+          </div>
+          <div class="p-5 border border-slate-200 rounded-lg hover:border-brand-300 hover:shadow-sm transition">
+            <div class="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center mb-3">
+              <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-900 mb-1">Link de Pagamento</h3>
+            <p class="text-sm text-slate-600">Compartilhe links em redes sociais, e-mails e mensagens.</p>
+          </div>
+          <div class="p-5 border border-slate-200 rounded-lg hover:border-brand-300 hover:shadow-sm transition">
+            <div class="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center mb-3">
+              <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-900 mb-1">Checkout Recorrente</h3>
+            <p class="text-sm text-slate-600">Automatize cobranças para mensalidades e assinaturas.</p>
+          </div>
+          <div class="p-5 border border-slate-200 rounded-lg hover:border-brand-300 hover:shadow-sm transition">
+            <div class="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center mb-3">
+              <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-900 mb-1">Ambiente Seguro</h3>
+            <p class="text-sm text-slate-600">Certificação PCI-DSS para máxima segurança.</p>
+          </div>
+        </div>
+        
+        <h3 class="text-lg font-semibold text-slate-900 mb-3" id="payment-methods">Meios de Pagamento Disponíveis</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-sm font-medium text-slate-700">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+            </svg>
+            Cartão de Crédito
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-sm font-medium text-slate-700">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+            </svg>
+            Cartão de Débito
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-sm font-medium text-slate-700">
+            Pix
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-sm font-medium text-slate-700">
+            Boleto
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg text-sm font-medium text-slate-700">
+            Pagar com Millionspay
+          </span>
+        </div>
+      </section>
+
+      <!-- Como Funciona -->
+      <section id="como-funciona" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Como a API de Checkout Funciona</h2>
+        <p class="text-slate-600 mb-6">Fluxo de integração passo a passo.</p>
+        
+        <div class="relative">
+          <!-- Timeline -->
+          <div class="absolute left-[17px] top-0 bottom-0 w-0.5 bg-slate-200"></div>
+          
+          <div class="space-y-6">
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-brand-700 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">1</div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Coleta de Informações</h4>
+                <p class="text-sm text-slate-600">Colete as informações dos itens associados ao pedido através do seu e-commerce.</p>
+              </div>
+            </div>
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-brand-700 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">2</div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Criação do Checkout</h4>
+                <p class="text-sm text-slate-600">Utilize <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs">POST /checkouts</code> para criar uma página de pagamento.</p>
+              </div>
+            </div>
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-brand-700 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">3</div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Recebimento do Link</h4>
+                <p class="text-sm text-slate-600">A API retorna um <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs">id</code> e um link de pagamento em <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs">links[].href</code>.</p>
+              </div>
+            </div>
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-brand-700 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">4</div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Redirecionamento</h4>
+                <p class="text-sm text-slate-600">Redirecione o cliente para a página de pagamento utilizando o link fornecido.</p>
+              </div>
+            </div>
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-brand-700 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">5</div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Pagamento</h4>
+                <p class="text-sm text-slate-600">O cliente conclui o pagamento com o método desejado.</p>
+              </div>
+            </div>
+            <div class="relative flex gap-4">
+              <div class="w-9 h-9 bg-green-600 text-white rounded-full flex items-center justify-center font-semibold text-sm z-10 flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <div class="pt-1">
+                <h4 class="font-semibold text-slate-900">Retorno</h4>
+                <p class="text-sm text-slate-600">Após a conclusão, o cliente é redirecionado para a <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs">redirect_url</code>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="code-block mt-6">
+          <div class="code-header">
+            <span>Exemplo de resposta com link de pagamento</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code>{
+  <span class="token-key">"links"</span>: [
+    {
+      <span class="token-key">"rel"</span>: <span class="token-string">"PAY"</span>,
+      <span class="token-key">"href"</span>: <span class="token-string">"https://pagamento.millionspay.com.br/pagamento?code=XXXX"</span>,
+      <span class="token-key">"method"</span>: <span class="token-string">"GET"</span>
+    }
+  ]
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Personalização -->
+      <section id="personalizacao" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Personalização da Página de Pagamento</h2>
+        <p class="text-slate-600 mb-6">
+          Você pode pular etapas do processo de pagamento fornecendo os dados do cliente antecipadamente.
+        </p>
+        
+        <div class="overflow-x-auto mb-6">
+          <table class="doc-table w-full border border-slate-200 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th>Parâmetro</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">customer_modifiable</code></td>
+                <td class="text-slate-500">Boolean</td>
+                <td class="text-slate-600">Define se o passo de fornecimento dos dados pessoais será apresentado.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">address_modifiable</code></td>
+                <td class="text-slate-500">Boolean</td>
+                <td class="text-slate-600">Define se o passo de fornecimento dos dados do endereço será apresentado.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <h3 class="text-lg font-semibold text-slate-900 mb-3">Cálculo do Valor</h3>
+        <div class="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
+          <p class="text-center font-mono text-sm text-slate-700">
+            <strong>valor total</strong> = valor dos itens + valor do frete + valor adicional - desconto
+          </p>
+        </div>
+        
+        <div class="callout callout-warning">
+          <div class="flex gap-3">
+            <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+            </svg>
+            <div>
+              <p class="font-medium text-amber-900 mb-1">Atenção</p>
+              <p class="text-sm text-amber-800">O valor máximo do carrinho não deve ultrapassar <strong>8999999100 centavos</strong> (R$ 89.999.991,00).</p>
+            </div>
+          </div>
+        </div>
+        
+        <h3 class="text-lg font-semibold text-slate-900 mb-3 mt-8">Configuração de Parcelamento</h3>
+        <p class="text-slate-600 mb-4">
+          Por padrão, as taxas de parcelamento são arcadas pelo comprador. Configure o checkout para assumir essas taxas.
+        </p>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>12x com juros grátis nas primeiras 5 parcelas</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code>{
+  <span class="token-key">"config_options"</span>: [
+    {
+      <span class="token-key">"option"</span>: <span class="token-string">"INSTALLMENTS_LIMIT"</span>,
+      <span class="token-key">"value"</span>: <span class="token-string">"12"</span>
+    },
+    {
+      <span class="token-key">"option"</span>: <span class="token-string">"INTEREST_FREE_INSTALLMENTS"</span>,
+      <span class="token-key">"value"</span>: <span class="token-string">"5"</span>
+    }
+  ]
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Checkout Recorrente -->
+      <section id="checkout-recorrente" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Checkout Recorrente</h2>
+        <p class="text-slate-600 mb-6">
+          Automatize cobranças periódicas como mensalidades, assinaturas ou serviços recorrentes. A primeira cobrança é realizada no momento do pagamento, e uma assinatura é criada automaticamente.
+        </p>
+        
+        <div class="callout callout-info mb-6">
+          <div class="flex gap-3">
+            <svg class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <div>
+              <p class="font-medium text-blue-900 mb-1">Nota</p>
+              <p class="text-sm text-blue-800">O Checkout Recorrente está disponível apenas para pagamentos via <strong>cartão de crédito</strong>.</p>
+            </div>
+          </div>
+        </div>
+        
+        <h3 class="text-lg font-semibold text-slate-900 mb-3">Parâmetros do Plano</h3>
+        <div class="overflow-x-auto mb-6">
+          <table class="doc-table w-full border border-slate-200 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th>Parâmetro</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">recurrence_plan.name</code></td>
+                <td class="text-slate-500">String</td>
+                <td class="text-slate-600">Nome do plano de cobrança recorrente.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">recurrence_plan.interval</code></td>
+                <td class="text-slate-500">Object</td>
+                <td class="text-slate-600">Intervalo de cobrança (unit: MONTH/YEAR, length: número).</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">recurrence_plan.billing_cycles</code></td>
+                <td class="text-slate-500">Integer</td>
+                <td class="text-slate-600">Número de ciclos de cobrança do plano.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>Exemplo de requisição com recorrência</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code>{
+  <span class="token-key">"reference_id"</span>: <span class="token-string">"ASSINATURA_001"</span>,
+  <span class="token-key">"items"</span>: [
+    {
+      <span class="token-key">"name"</span>: <span class="token-string">"Plano Premium"</span>,
+      <span class="token-key">"quantity"</span>: <span class="token-number">1</span>,
+      <span class="token-key">"unit_amount"</span>: <span class="token-number">4990</span>
+    }
+  ],
+  <span class="token-key">"recurrence_plan"</span>: {
+    <span class="token-key">"name"</span>: <span class="token-string">"Plano Premium Mensal"</span>,
+    <span class="token-key">"interval"</span>: {
+      <span class="token-key">"unit"</span>: <span class="token-string">"MONTH"</span>,
+      <span class="token-key">"length"</span>: <span class="token-number">1</span>
+    },
+    <span class="token-key">"billing_cycles"</span>: <span class="token-number">12</span>
+  }
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- API Reference: Criar Checkout -->
+      <section id="criar-checkout" class="mb-16">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-2.5 py-1 method-post text-white text-xs font-bold rounded">POST</span>
+          <code class="text-lg font-mono text-slate-900">/checkouts</code>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Criar Checkout</h2>
+        <p class="text-slate-600 mb-6">
+          Permite criar checkouts personalizados para cada pedido recebido dos seus clientes.
+        </p>
+        
+        <div class="code-block mb-6">
+          <div class="code-header">
+            <span>cURL</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code><span class="token-keyword">curl</span> -X POST https://api.millionspay.com.br/checkouts \
+  -H <span class="token-string">"Authorization: Bearer {seu_token}"</span> \
+  -H <span class="token-string">"Content-Type: application/json"</span> \
+  -d '{
+    "reference_id": "PEDIDO_001",
+    "items": [
+      {
+        "name": "Produto Exemplo",
+        "quantity": 1,
+        "unit_amount": 9900
+      }
+    ],
+    "payment_methods": [
+      {"type": "CREDIT_CARD"},
+      {"type": "PIX"},
+      {"type": "BOLETO"}
+    ],
+    "redirect_url": "https://seusite.com.br/sucesso",
+    "notification_urls": ["https://seusite.com.br/webhook"]
+  }'</code></pre>
+        </div>
+        
+        <h3 class="text-lg font-semibold text-slate-900 mb-3">Parâmetros do Body</h3>
+        <div class="overflow-x-auto">
+          <table class="doc-table w-full border border-slate-200 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th>Parâmetro</th>
+                <th>Tipo</th>
+                <th></th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">reference_id</code></td>
+                <td class="text-slate-500">String(64)</td>
+                <td><span class="param-required">Obrigatório</span></td>
+                <td class="text-slate-600">Identificador único atribuído pelo vendedor.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">items</code></td>
+                <td class="text-slate-500">Array</td>
+                <td><span class="param-required">Obrigatório</span></td>
+                <td class="text-slate-600">Lista de produtos (name, quantity, unit_amount).</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">payment_methods</code></td>
+                <td class="text-slate-500">Array</td>
+                <td><span class="param-optional">Opcional</span></td>
+                <td class="text-slate-600">Meios de pagamento aceitos.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">redirect_url</code></td>
+                <td class="text-slate-500">String(255)</td>
+                <td><span class="param-optional">Opcional</span></td>
+                <td class="text-slate-600">URL de redirecionamento após pagamento.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">notification_urls</code></td>
+                <td class="text-slate-500">Array</td>
+                <td><span class="param-optional">Opcional</span></td>
+                <td class="text-slate-600">URLs para notificações de webhook.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- API Reference: Consultar Checkout -->
+      <section id="consultar-checkout" class="mb-16">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-2.5 py-1 method-get text-white text-xs font-bold rounded">GET</span>
+          <code class="text-lg font-mono text-slate-900">/checkouts/{checkout_id}</code>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Consultar Checkout</h2>
+        <p class="text-slate-600 mb-6">
+          Permite consultar um checkout e todos os pagamentos a ele associados.
+        </p>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>cURL</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code><span class="token-keyword">curl</span> -X GET https://api.millionspay.com.br/checkouts/CHEC_XXXX \
+  -H <span class="token-string">"Authorization: Bearer {seu_token}"</span></code></pre>
+        </div>
+      </section>
+
+      <!-- API Reference: Inativar Checkout -->
+      <section id="inativar-checkout" class="mb-16">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-2.5 py-1 method-post text-white text-xs font-bold rounded">POST</span>
+          <code class="text-lg font-mono text-slate-900">/checkouts/{checkout_id}/inactivate</code>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Inativar Checkout</h2>
+        <p class="text-slate-600 mb-6">
+          Desativa um checkout. O checkout continuará existindo, mas o cliente não poderá realizar o pagamento enquanto estiver desativado.
+        </p>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>cURL</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code><span class="token-keyword">curl</span> -X POST https://api.millionspay.com.br/checkouts/CHEC_XXXX/inactivate \
+  -H <span class="token-string">"Authorization: Bearer {seu_token}"</span></code></pre>
+        </div>
+      </section>
+
+      <!-- API Reference: Ativar Checkout -->
+      <section id="ativar-checkout" class="mb-16">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-2.5 py-1 method-post text-white text-xs font-bold rounded">POST</span>
+          <code class="text-lg font-mono text-slate-900">/checkouts/{checkout_id}/activate</code>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Ativar Checkout</h2>
+        <p class="text-slate-600 mb-6">
+          Ativa um checkout que tenha sido inativado (status <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs">INACTIVE</code>).
+        </p>
+        
+        <div class="callout callout-warning mb-6">
+          <div class="flex gap-3">
+            <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+            </svg>
+            <div>
+              <p class="font-medium text-amber-900 mb-1">Atenção</p>
+              <p class="text-sm text-amber-800">Não é possível ativar um checkout depois que ele expirou.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>cURL</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code><span class="token-keyword">curl</span> -X POST https://api.millionspay.com.br/checkouts/CHEC_XXXX/activate \
+  -H <span class="token-string">"Authorization: Bearer {seu_token}"</span></code></pre>
+        </div>
+      </section>
+
+      <!-- Objeto Checkout -->
+      <section id="objeto-checkout" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Objeto Checkout</h2>
+        <p class="text-slate-600 mb-6">Referência completa de todos os parâmetros do objeto Checkout.</p>
+        
+        <div class="overflow-x-auto">
+          <table class="doc-table w-full border border-slate-200 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th>Parâmetro</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">id</code></td>
+                <td class="text-slate-500">String</td>
+                <td class="text-slate-600">Identificador único do checkout. Ex: CHEC_XXXX</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">reference_id</code></td>
+                <td class="text-slate-500">String(64)</td>
+                <td class="text-slate-600">Identificador único atribuído pelo vendedor.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">expiration_date</code></td>
+                <td class="text-slate-500">ISO-8601</td>
+                <td class="text-slate-600">Data de expiração do checkout.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">customer</code></td>
+                <td class="text-slate-500">Object</td>
+                <td class="text-slate-600">Dados do comprador (name, email, tax_id, phone).</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">items</code></td>
+                <td class="text-slate-500">Array</td>
+                <td class="text-slate-600">Lista de produtos (name, quantity, unit_amount).</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">shipping</code></td>
+                <td class="text-slate-500">Object</td>
+                <td class="text-slate-600">Dados de entrega (type, address, amount).</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">payment_methods</code></td>
+                <td class="text-slate-500">Array</td>
+                <td class="text-slate-600">Meios de pagamento aceitos.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">redirect_url</code></td>
+                <td class="text-slate-500">String(255)</td>
+                <td class="text-slate-600">URL de redirecionamento após pagamento.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">notification_urls</code></td>
+                <td class="text-slate-500">Array</td>
+                <td class="text-slate-600">URLs para notificações de webhook.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">status</code></td>
+                <td class="text-slate-500">ENUM</td>
+                <td class="text-slate-600">Status: ACTIVE, INACTIVE, EXPIRED.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">links</code></td>
+                <td class="text-slate-500">Array</td>
+                <td class="text-slate-600">Links para operações (PAY, SELF, ACTIVATE, INACTIVATE).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Códigos de Erro -->
+      <section id="erros" class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Códigos de Erro</h2>
+        <p class="text-slate-600 mb-6">
+          Os erros estão normalmente associados ao fornecimento de parâmetros incorretos ou falta de autenticação.
+        </p>
+        
+        <div class="overflow-x-auto">
+          <table class="doc-table w-full border border-slate-200 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th>Código</th>
+                <th>Status</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">400</code></td>
+                <td class="text-slate-600 font-medium">Bad Request</td>
+                <td class="text-slate-600">Requisição inválida - parâmetros incorretos ou ausentes.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">401</code></td>
+                <td class="text-slate-600 font-medium">Unauthorized</td>
+                <td class="text-slate-600">Token de autenticação inválido ou ausente.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">403</code></td>
+                <td class="text-slate-600 font-medium">Forbidden</td>
+                <td class="text-slate-600">Sem permissão para acessar o recurso.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">404</code></td>
+                <td class="text-slate-600 font-medium">Not Found</td>
+                <td class="text-slate-600">Checkout não encontrado.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">422</code></td>
+                <td class="text-slate-600 font-medium">Unprocessable Entity</td>
+                <td class="text-slate-600">Dados válidos mas não processáveis.</td>
+              </tr>
+              <tr>
+                <td><code class="bg-red-100 text-red-700 px-2 py-0.5 rounded text-xs font-mono">500</code></td>
+                <td class="text-slate-600 font-medium">Internal Server Error</td>
+                <td class="text-slate-600">Erro interno do servidor.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Exemplo Completo -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Exemplo Completo</h2>
+        <p class="text-slate-600 mb-6">Requisição completa para criar um checkout com todos os parâmetros.</p>
+        
+        <div class="code-block">
+          <div class="code-header">
+            <span>Requisição completa - JSON</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copiar</button>
+          </div>
+          <pre><code>{
+  <span class="token-key">"reference_id"</span>: <span class="token-string">"PEDIDO_12345"</span>,
+  <span class="token-key">"expiration_date"</span>: <span class="token-string">"2026-02-28T23:59:59-03:00"</span>,
+  <span class="token-key">"customer"</span>: {
+    <span class="token-key">"name"</span>: <span class="token-string">"João Silva"</span>,
+    <span class="token-key">"email"</span>: <span class="token-string">"joao.silva@email.com"</span>,
+    <span class="token-key">"tax_id"</span>: <span class="token-string">"12345678909"</span>,
+    <span class="token-key">"phone"</span>: {
+      <span class="token-key">"country"</span>: <span class="token-string">"+55"</span>,
+      <span class="token-key">"area"</span>: <span class="token-string">"11"</span>,
+      <span class="token-key">"number"</span>: <span class="token-string">"999999999"</span>
+    }
+  },
+  <span class="token-key">"customer_modifiable"</span>: <span class="token-keyword">false</span>,
+  <span class="token-key">"items"</span>: [
+    {
+      <span class="token-key">"reference_id"</span>: <span class="token-string">"PROD_001"</span>,
+      <span class="token-key">"name"</span>: <span class="token-string">"Camiseta Premium"</span>,
+      <span class="token-key">"description"</span>: <span class="token-string">"Camiseta 100% algodão"</span>,
+      <span class="token-key">"quantity"</span>: <span class="token-number">2</span>,
+      <span class="token-key">"unit_amount"</span>: <span class="token-number">7990</span>
+    }
+  ],
+  <span class="token-key">"shipping"</span>: {
+    <span class="token-key">"type"</span>: <span class="token-string">"FIXED"</span>,
+    <span class="token-key">"amount"</span>: <span class="token-number">1500</span>,
+    <span class="token-key">"address"</span>: {
+      <span class="token-key">"street"</span>: <span class="token-string">"Av. Paulista"</span>,
+      <span class="token-key">"number"</span>: <span class="token-string">"1000"</span>,
+      <span class="token-key">"locality"</span>: <span class="token-string">"Bela Vista"</span>,
+      <span class="token-key">"city"</span>: <span class="token-string">"São Paulo"</span>,
+      <span class="token-key">"region_code"</span>: <span class="token-string">"SP"</span>,
+      <span class="token-key">"postal_code"</span>: <span class="token-string">"01310100"</span>
+    }
+  },
+  <span class="token-key">"payment_methods"</span>: [
+    {<span class="token-key">"type"</span>: <span class="token-string">"CREDIT_CARD"</span>},
+    {<span class="token-key">"type"</span>: <span class="token-string">"PIX"</span>},
+    {<span class="token-key">"type"</span>: <span class="token-string">"BOLETO"</span>}
+  ],
+  <span class="token-key">"redirect_url"</span>: <span class="token-string">"https://seusite.com.br/sucesso"</span>,
+  <span class="token-key">"notification_urls"</span>: [<span class="token-string">"https://seusite.com.br/webhook"</span>]
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Suporte -->
+      <section class="bg-gradient-to-r from-brand-50 to-slate-50 rounded-2xl p-8 text-center border border-brand-100">
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Precisa de Ajuda?</h3>
+        <p class="text-slate-600 mb-6">Nossa equipe de especialistas está pronta para te ajudar com a integração.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="#" class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-700 text-white text-sm font-medium rounded-lg hover:bg-brand-800 transition">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+            Falar com Suporte
+          </a>
+          <a href="#" class="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-300 text-slate-700 text-sm font-medium rounded-lg hover:bg-white transition">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+            Ver mais documentação
+          </a>
+        </div>
+      </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 mt-16">
+      <div class="max-w-4xl mx-auto px-6 py-8">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-2 text-sm text-slate-500">
+            <div class="w-6 h-6 bg-brand-700 rounded flex items-center justify-center">
+              <span class="text-white font-bold text-xs">M</span>
+            </div>
+            <span>© 2026 Millionspay. Todos os direitos reservados.</span>
+          </div>
+          <div class="flex gap-6 text-sm text-slate-500">
+            <a href="#" class="hover:text-slate-900">Termos de Uso</a>
+            <a href="#" class="hover:text-slate-900">Privacidade</a>
+            <a href="#" class="hover:text-slate-900">Status</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Toggle sidebar on mobile
+    function toggleSidebar() {
+      document.querySelector('.sidebar').classList.toggle('active');
+      document.querySelector('.sidebar-overlay').classList.toggle('active');
+    }
+    
+    // Copy code functionality
+    function copyCode(btn) {
+      const codeBlock = btn.closest('.code-block').querySelector('code');
+      const text = codeBlock.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        btn.classList.add('copied');
+        btn.textContent = 'Copiado!';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.textContent = 'Copiar';
+        }, 2000);
+      });
+    }
+    
+    // Active sidebar link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const sidebarLinks = document.querySelectorAll('.sidebar-link');
+    
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      
+      sidebarLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
