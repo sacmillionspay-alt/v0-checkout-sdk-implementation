@@ -1,0 +1,3 @@
+Para exibir o conteúdo completo nas páginas de Termos de Uso e Segurança da Informação, copie os arquivos para esta pasta com os nomes:
+- Termos de Uso.txt -> termos.txt
+- POLÍTICA DE SEGURANÇA DA INFORMAÇÃO.txt -> seguranca.txt

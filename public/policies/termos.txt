@@ -1,0 +1,545 @@
+Termos de Uso
+
+MILLIONS PAY LTDA., pessoa jurídica de direito privado, inscrita no CNPJ sob o nº CNPJ: 56.002.183/0001-39, com sede profissional localizada na Avenida República Argentina, n.2524, Portão, Curitiba/PR, CEP: 80610-260, doravante denominada (“MILLIONS PAY”), e ("Você”), pessoa física ou jurídica e os respectivos sócios e procuradores, também qualificados no Cadastro, que assumem a condição de devedores solidários (“Devedores Solidários”), que leu, entendeu, está de acordo e deu o aceite eletrônico, doravante denominado PARCEIRO, firmam o presente Contrato de Licença de Uso não exclusiva da PLATAFORMA MILLIONS PAY (“Termos de  Uso/Instrumento”), do qual é parte integrante a política de privacidade. 
+
+1- DA ACEITAÇÃO DO CONTRATO E DOCUMENTOS INTEGRANTES 
+
+1.1. O aceito das condições dos Termos de Uso da MILLIONS PAY configura uma licença de uso não exclusiva da PLATAFORMA MILLIONS PAY para acesso e navegação; 
+1.2. Ao preencher eletronicamente o Cadastro, após a leitura integral deste Contrato e a marcação da caixa de diálogo “Li e aceito os Termos e Condições de Uso”, o PARCEIRO estará automaticamente aderindo e concordando com os termos e condições deste Contrato; 
+
+1.3. Após a ocorrência da primeira Transação, ainda que não se localize o aceite eletrônico do PARCEIRO no Cadastro, serão consideradas válidas todas as condições estabelecidas neste Contrato; 
+
+1.4. Caso o PARCEIRO realize o credenciamento de um ou mais Estabelecimentos relacionados, às condições deste Contrato também passam a se aplicar a estes; 
+
+1.5. A MILLIONS PAY poderá alterar as condições deste Contrato a qualquer tempo, podendo o PARCEIRO, caso não concorde com a modificação, denunciá-lo, sem qualquer ônus ou penalidade; 
+
+1.6. Ao preencher o Cadastro e aderir a este Contrato, os Devedores Solidários assumem a condição de devedores solidários, e expressamente se comprometem a realizar o pagamento de eventuais débitos do PARCEIRO; 
+
+1.7. Os recursos da PLATAFORMA MILLIONS PAY são licenciados no estado em que se encontram, podendo ser modificados, substituídos ou removidos da  PLATAFORMA MILLIONS PAY a qualquer momento, sem aviso prévio; 
+
+1.8. O uso da PLATAFORMA MILLIONS PAY em discordância com os termos a seguir poderá implicar na suspensão do acesso à conta ou no cancelamento do seu cadastro, o consequente e imediato encerramento da licença de uso previamente existente e eventuais outras sanções, conforme adiante detalhado; 
+
+1.9. A MILLIONS PAY pode restringir a disponibilidade da Plataforma ou de certas áreas ou recursos a ela relacionados, se necessário, considerando os limites de capacidade, a segurança, a forma de atuação ou a integridade de seus servidores, bem como para realizar medidas de manutenção ou aprimoramento dos seus serviços; 
+
+1.10. A MILLIONS PAY não será responsabilizada pelo Usuário ou por qualquer terceiro em função do impedimento ou alteração na forma de acesso à Plataforma e aos Serviços; 
+
+1.11. A MILLIONS PAY pode melhorar e alterar a Plataforma a qualquer tempo, seja para modificar, substituir ou remover serviços/ferramentas/funcionalidades existentes, ou para adicionar serviços/ferramentas/funcionalidades novos; 
+
+1.12. Você declara estar ciente e concorda, expressamente, que é seu dever ler e se informar sobre eventuais alterações nestes Termos de Uso e nas demais Políticas e Termos da MILLIONS PAY; 
+
+1.13. O presente instrumento deve ser interpretado em conjunto com as condições dos ANEXOS a que faça referência, sendo que sempre que houver algum conflito entre o disposto neste CONTRATO, e em ANEXO específico, prevalecerá o disposto no ANEXO, por ser regra especial. 
+
+
+2- DA ATIVIDADE DA MILLIONS PAY 
+
+2.1. A MILLIONS PAY é uma plataforma de processamento e gerenciamento de pagamento online. Assim, o presente Contrato tem por objeto intermediar a relação de compra e venda entre PARCEIROS e COMPRADORES; 
+
+
+2.2. A MILLIONS PAY não exerce atividade de instituição financeira, de prestadora de serviços financeiros ou de administradora de cartões de crédito, realiza apenas o processamento e gerenciamento de pagamento online. 
+
+
+3- DAS DEFINIÇÕES 
+
+3.1. Sempre que as expressões abaixo forem usadas em letra maiúscula nestes Termos de Uso, elas terão o seguinte significado: 
+
+(“PLATAFORMA MILLIONS PAY ou Plataforma”): é uma plataforma online utilizada para gestão e vendas de produtos digitais e físicos, feita para intermediar, de forma digital, os Usuários, oferecendo conteúdos, soluções e ferramentas tecnológicas, de propriedade da MILLIONS PAY e disponibilizada para acesso e navegação dos Usuários; 
+
+(“Atividades Restritas”): São todas as atividades descritas no item “Das atividades restritas", abaixo, e que não podem ser praticadas em nossa Plataforma; 
+
+(“Chargeback”): É a solicitação de cancelamento de uma transação, realizada pelo titular do cartão de crédito para a operadora do cartão de crédito ou feita pelo próprio banco emissor do cartão. O cancelamento é informado ao adquirente (Ex: Cielo, Rede Global, Payments, Get Net, etc.), que repassa a informação à MILLIONS PAY. Quando o emissor do cartão aceita o pedido de cancelamento, o titular do cartão é estornado do valor da transação ou o débito deixa de ser debitado do seu cartão; 
+
+(“Código de Acesso”): É a senha utilizada pelo Usuário para acessar sua Conta Virtual; 
+
+(“Conta Bancária” ou “Conta”): É (são) o(s) dado(s) da Conta(s) cadastrada(s) pelo Usuário para as quais a MILLIONS PAY irá transferir os valores depositados em sua Conta Virtual; 
+
+(“Chave PIX”): É a chave PIX relacionada à Conta(s) Bancária(s) para as quais a MILLIONS PAY irá transferir os valores depositados em sua Conta Virtual; 
+
+("Conta Virtual"): É a Conta do Usuário na plataforma da MILLIONS PAY, que será utilizada para o processamento dos pagamentos realizados para o Usuário; 
+
+(''Tarifa''): É o valor cobrado pela MILLIONS PAY bem como pelo intermediador "ABMEX PAGAMENTOS INTELIGENTES LTDA” ao PARCEIRO, como remuneração pelo serviço de intermediação do negócio; 
+
+(“Tributos”): São todas as espécies tributárias devidas - impostos, taxas, encargos, contribuições, decorrentes das operações realizadas pelo Usuário; 
+
+(“Parceiro”): São todas as pessoas físicas e/ou jurídicas que promovem, divulgam e comercializam, os produtos físicos e/ou digitais, utilizando a plataforma da MILLIONS PAY para o processamento e gerenciamento de suas “Transações”; 
+
+(“COMPRADOR”): São todas as pessoas, físicas ou jurídicas, que compram produtos digitais e/ou físicos disponibilizados nos sites do PARCEIROS, utilizando a plataforma da MILLIONS PAY para o processamento do pagamento; 
+
+(“Usuário” ou “Usuários”): Termo aplicado ao conjunto formado por Usuário Parceiro e Comprador ou às disposições que se aplicam igualmente a essas DUAS espécies; 
+
+(“Transações”): Toda e qualquer operação de Crédito, seja venda ou comissão, de bens e/ou serviços realizados juntos à MILLIONS PAY mediante a utilização de Cartões ou outro meio de pagamento eletrônico, como Boleto Bancário, PIX ou Transferência Eletrônica de Recursos entre contas correntes bancárias. Serão, também, consideradas “Transações” as operações de transferência para conta bancária, transferência entre CONTAS MILLIONS PAY, mas não se limitando a estas; 
+
+(“Crédito”): Quantia em moeda nacional, obtida por meio da venda ou comissão, de bens e/ou serviços realizados juntos a MILLIONS PAY, informada na plataforma. 
+
+(“Antecipação de Crédito”): Adiantamento de saldo a receber, obtido por meio da venda ou comissão, de bens e/ou serviços realizados através da 
+PLATAFORMA MILLIONS PAY; 
+
+(“Taxa de Antecipação”): remuneração a ser paga pelo PARCEIRO, incidente sobre o Valor Bruto da Transação, quando este optar pela antecipação de seus recebíveis; 
+
+(“Cookie Stuffing”): Extensões de navegador maliciosas, concebidas para inserir a identidade ou dados de identificação de um Usuário Afiliado em detrimento de outro; 
+
+(“Saque”): Significa a transferência dos valores da Conta Virtual para a Conta Bancária do Usuário; 
+
+(“Perda”): todas e quaisquer perdas, obrigações, demandas, passivos, exigências, constrições, danos, multas, penalidades, prejuízos, ônus, desembolsos, taxas, honorários, custos ou despesas, incluindo danos diretos, danos indiretos, danos emergentes, danos morais e/ou lucros cessantes, honorários advocatícios (e quando se tratarem de honorários relacionados aos procuradores da MILLIONS PAY sempre serão estipulados em 20% sobre o valor econômico do litígio) e de outros especialistas (inclusive de peritos e assistentes técnicos), verbas de sucumbência, bem como custas judiciais ou quaisquer juros, sejam eles já materializados ou futuros, incorridos pela MILLIONS PAY e/ou terceiros, decorrentes, direta ou indiretamente, do objeto deste Termos de Uso e/ou da utilização da Plataforma, bem como do descumprimento de obrigações assumidas pelo Usuário perante terceiros ou no âmbito de sua atividade, independente do período em que ocorra (antes ou após o término da contratação), incluindo, sem limitação, aquelas decorrentes de multas, penalidades, reclamações, processos administrativos, extrajudiciais e judiciais ajuizados por terceiros e/ou ocasionadas por ato oriundo do Usuário, independentemente de culpa ou dolo; 
+
+(“Reserva de Segurança”): valor mínimo mensal de retenção, a ser calculado de acordo com os critérios de risco da MILLIONS PAY, com o objetivo de mitigar eventual alto nível de risco operacional ou financeiro associado ao respectivo PARCEIRO ou ainda compensar débitos de qualquer natureza do PARCEIRO perante a MILLIONS PAY, em conformidade com as disposições deste Contrato. 
+
+
+4 - DO CADASTRO DO USUÁRIO E DA "CONTA VIRTUAL" MILLIONS PAY 
+
+4.1 Poderão se cadastrar como PARCEIRO: 
+
+Pessoa Física, em pleno gozo da capacidade civil (maior de 18 anos ou emancipado) e sem impedimento legal; 
+Pessoa jurídica, por meio de seu sócio ou representante legal, com capacidade jurídica para contratar. 
+
+Para se cadastrar, deverá informar, entre outros documentos e informações que a MILLIONS PAY julgar necessário, seu nome completo ou razão social, data de nascimento, e-mail, login e criar seu Código de Acesso (senha); 
+
+Após o cadastro inicial, deverá validar sua conta, fornecendo, entre outros documentos e informações que a MILLIONS PAY julgar necessários, CPF, CNPJ e/ou dados dos DEVEDORES SOLIDÁRIOS, número de telefone, endereço, dados bancários e o(s) produto(s) que irá comercializar (no caso de Usuário PARCEIRO); 
+
+A(s) Conta(s) Bancária(s), cadastradas deverá(ão) ser de sua titularidade. Não será admitido o cadastro de “Conta Bancária” de titularidade de terceiros, a MILLIONS PAY realizará ordens de Saque apenas para a conta bancária de titularidade do PARCEIRO, cadastrada na plataforma, situadas em agências brasileiras e com titulares com domicílio fiscal no Brasil; 
+
+A MILLIONS PAY não realizará ordens de Saque para conta bancária de titularidade dos sócios da pessoa jurídica cadastrada como PARCEIRO; 
+
+Novas contas bancárias cadastradas por um Usuário já cadastrado ou a alteração das contas bancárias ou dos dados das já existentes serão aprovadas na Plataforma de acordo com critérios estabelecidos pela MILLIONS PAY; 
+
+A fim de comprovar a veracidade dos dados informados, o PARCEIRO deverá anexar documentos como RG, CPF, Contrato Social ou Estatuto Social, comprovante de endereço, ou outros que a MILLIONS PAY venha a solicitar; 
+
+Caso tais documentos não sejam anexados, o cadastro do Usuário não será concluído. 
+
+No processo de aprovação do PARCEIRO, quando pessoa jurídica, será analisado o quadro societário da sociedade (QSA) e o perfil dos Sócios; 
+
+A MILLIONS PAY reserva-se no direito de utilizar todos os meios válidos e possíveis para confirmar os dados fornecidos pelo PARCEIRO, bem como consultar bancos de dados mantidos por terceiros, como SPC e SERASA; 
+
+Após o cadastro do PARCEIRO, a MILLIONS PAY avaliará o tipo de negócio ou atividade desenvolvida por ele, a fim de verificar a compatibilidade de sua atividade com os interesses da Política da Empresa. A partir da análise, a MILLIONS PAY, a seu critério, poderá aprovar ou reprovar o cadastro do PARCEIRO; 
+
+Após a aprovação da Conta Virtual do PARCEIRO, ela estará apta a receber pagamentos. Contudo, as transferências para a(s) Conta(s) Bancária(s) do PARCEIRO, somente serão realizadas após a confirmação dos dados por ele informados e cumprimento das disposições pactuadas neste instrumento; 
+
+A MILLIONS PAY informará ao PARCEIRO, pelo e-mail cadastrado, sobre a aprovação ou reprovação de sua Conta Virtual; 
+
+É de inteira responsabilidade do PARCEIRO, manter seus dados atualizados perante as autoridades governamentais; 
+
+A MILLIONS PAY não se responsabiliza por eventos que possam causar a impossibilidade de o PARCEIRO receber valores em sua conta corrente, como a suspensão do CPF ou declaração de inaptidão do CNPJ; 
+
+O PARCEIRO e os Devedores Solidários, seus sócios, titulares e terceiros com poderes outorgados através de procuração que os autorize acessar a Plataforma para administrar as Contas Virtuais, assumem, de forma solidária, responsabilidade por eventuais débitos do PARCEIRO, de modo que a MILLIONS PAY poderá cobrá-los de forma conjunta ou individual, nos termos previstos neste Contrato, inclusive negativa- los nos órgãos de proteção ao crédito; 
+4.15. É permitido que o mesmo PARCEIRO crie duas ou mais contas virtuais, vinculadas ao número de CNPJ ou CPF: 
+
+4.15.1 Caso cadastre mais de uma Conta Virtual, a MILLIONS PAY reserva-se o direito de compensar os débitos e créditos existentes em suas Contas. 
+
+A venda de produtos classificados como conteúdo adulto (eróticos, pornográficos e outros do gênero) dependerá de prévia aprovação da MILLIONS PAY; 
+
+É expressamente proibido a utilização da marca e/ou qualquer imagem que remeta à MILLIONS PAY em páginas de vendas e similares; 
+
+O PARCEIRO também não poderá utilizar a marca, logo ou nome comercial da MILLIONS PAY para divulgar produtos, e nem indicar direta ou indiretamente que a MILLIONS PAY se associou, aprovou ou certificou qualquer produto; 
+
+Também fica expressamente proibida a utilização de material pornográfico, contendo cenas de nudez ou atos sexuais, ou de algum modo obsceno ou contrário a moral e aos bons costumes no gateway e ou dentro da página da MILLIONS PAY, bem como a utilização de imagens de menores de idade em desacordo com a Lei 8.069/1990 (ECA – Estatuto da Criança e do Adolescente), ainda que autorizada pelos responsáveis legais; 
+
+Qualquer uma das violações acima implicará no bloqueio automático da Conta Virtual; 
+
+Não é permitido a transferência da Conta Virtual à terceiros; 
+
+Caso a MILLIONS PAY encontre dados incorretos, inverídicos ou fraudulentos, se reserva no direito de suspender e/ou bloquear temporariamente a Conta Virtual do PARCEIRO, para verificar as informações, ou cancelá-la, caso não sejam sanadas as irregularidades encontradas, sem direito de indenização ou reparação ao Usuário, e sem prejuízo das eventuais sanções civis e penais cabíveis aplicáveis; 
+
+É vedado o cadastro de menores de 18 anos. Caso seja constatado um PARCEIRO nessa condição, a  MILLIONS PAY fará o cancelamento e, desde que não tenham débito pendentes, o estorno das vendas em que ele participou e excluirá, imediatamente, o seu cadastro; 
+
+O Código de Acesso permitirá ao PARCEIRO acessar sua Conta Virtual, conferir seu saldo, acompanhar sua rotina de vendas, e solicitar a transferência dos valores creditados (saque) para a Conta Bancária associada à Conta Virtual; 
+
+O Código de Acesso somente poderá ser modificado pelo próprio PARCEIRO. O Código de Acesso não poderá ser divulgado pelo PARCEIRO a terceiros, sendo, exclusivamente, de sua responsabilidade, o uso, a segurança e o conhecimento do seu Código de Acesso. O PARCEIRO expressamente aceita e reconhece que qualquer pessoa, que se identificar com o correto Código de Acesso, será reconhecida pela plataforma como o PARCEIRO, e qualquer operação ou transação feita com o mencionado Código de Acesso será tida como válida: 
+
+4.25.1 O PARCEIRO é o único responsável pelas atividades realizadas em sua conta, sendo a MILLIONS PAY isenta de qualquer responsabilidade por perdas e/ou danos causados por terceiros, decorrentes do descumprimento desta cláusula. 
+
+As receitas provenientes das vendas do PARCEIRO serão depositadas na sua Conta Virtual, e após 14 (quatorze) dias liberadas para Saque com Reserva de Segurança de 20% pelo prazo de 90 (noventa) dias. O Saque será processado após solicitação do PARCEIRO, descontadas as Tarifas aplicáveis devidas à MILLIONS PAY. conforme previsto neste Instrumento; 
+
+O Usuário autoriza expressamente que as informações cadastrais fornecidas (nome, CPF, CNPJ, endereço, e-mail) sejam mantidas pela MILLIONS PAY, bem como autoriza que tais informações sejam repassadas: 
+
+Às autoridades públicas competentes que as solicitarem formalmente, nos termos da legislação brasileira, em especial a Lei nº 12.965/2014 (“Marco Civil da Internet”); 
+A parceiros estratégicos, comerciais ou técnicos das Empresas para a prestação dos Serviços; 
+Às partes envolvidas em uma mesma negociação, como, por exemplo, para um Usuário Comprador envolvido em uma transação objeto de disputa. 
+
+O PARCEIRO declara, sob as penas das leis civis e penais brasileiras, que as informações, dados e documentos por ele informados são verdadeiros; 
+
+O presente instrumento produz efeitos de maneira retroativa, a partir da data de 01/08/2024, para todos os negócios e operações efetivados entre as partes, de forma que declaram as partes que os termos de instrumento refletem precisamente a natureza da relação jurídica havida entre estas a partir da aludida data, assim como os respectivos direitos e obrigações que a compõe; 
+
+O presente instrumento vigorará por prazo indeterminado, enquanto PARCEIRO utilizar/estiver apto a utilizar a plataforma MILLIONS PAY. 
+
+5 - O PROCESSAMENTO DE PAGAMENTOS E TRANSFERÊNCIA DE VALORES 
+
+5.1 Sempre que houver um pagamento em favor do PARCEIRO, o valor será creditado na sua Conta Virtual, descontadas as taxas da MILLIONS PAY. Após solicitação, o valor será transferido (sacado) para a Conta Bancária ou Chave PIX por ele cadastrada; 
+
+5.2 O PARCEIRO poderá visualizar em tempo real todos os pagamentos depositados em sua Conta Virtual por meio da nossa Plataforma; 
+
+5.3 A transferência dos créditos disponíveis na Conta Virtual do PARCEIRO pessoa física para a sua Conta Bancária, é limitada ao valor de R$ 2.900,00 (dois e novecentos reais) mensais, não havendo limite de saque para pessoas jurídicas; 
+
+5.4 O PARCEIRO AUTORIZA a MILLIONS PAY a subtrair do crédito de sua Conta Virtual, débitos decorrentes de Chargeback ou cancelamentos, bem como de qualquer PERDA, caso a MILLIONS PAY venha a responder administrativa ou judicialmente pelo produto ou pelas estratégias e informações fornecidas pelo PARCEIRO, bem como de qualquer fraude ou aproveitamento de erros na Plataforma por parte dos Usuários; 
+
+5.5 O PARCEIRO manifesta sua inequívoca ciência que, em razão da especificidade da natureza da presente operação, a cadeia negocial e de intermediação é composta também por nosso intermediador parceiro "ABMEX PAGAMENTOS INTELIGENTES LTDA", pessoa jurídica de direito privado, inscrita no CNPJ nº. 46.494.980/0001-27, que também integra para todos os efeitos a presente relação de prestação de serviço, especialmente no que toca o recebimento, repasse, administração, gestão, cobrança agenciamento, intermediação de valores e pagamentos; 
+
+5.6. Os valores despendidos ou contingenciados pela MILLIONS PAY poderão, a seu exclusivo critério, ser retidos e/ou abatidos do crédito nas Contas Virtuais e demais valores eventualmente devidos ao PARCEIRO responsável, até o limite necessário à recomposição dos custos incorridos – “PERDAS” – pela MILLIONS PAY para correções, recomposição de prejuízos, acordos extrajudiciais e judiciais firmados com terceiros em razão de falhas do produto ou das estratégias de divulgação e informações geradas pelo PARCEIRO, bem como condenações judiciais e honorários advocatícios, tanto contratuais, quanto sucumbenciais; 
+
+5.7 O PARCEIRO concorda e autoriza, desde já, a retenção e/ou abatimento dos referidos valores do Crédito de suas Contas Virtuais, pela MILLIONS PAY, os quais serão atualizados monetariamente pelo INPC-IBGE, acrescidos de juros de mora de 1% ao mês, além da multa de 10% prevista no item 10.16; 
+
+5.7.1 Na hipótese de não haver Crédito suficiente para suportar os débitos, a Conta Virtual ficará negativa na extensão da PERDA, fazendo deste instrumento título executivo extrajudicial, reconhecendo tanto o Usuário quanto a MILLIONS PAY a nova realidade comercial e o intenso intercâmbio de bens e serviços em sede virtual e a dispensa da assinatura de testemunhas no presente instrumento, servindo o aceite do Usuário aos Termos como meio apto à conferir a autenticidade e presencialidade do Usuário e, portanto, para configuração do título executivo extrajudicial, o que fazem também nos termos do art. 190 da Lei nº 13.105/2015 (Código de Processo Civil); 
+
+5.7.2 A sua escolha, a MILLIONS PAY poderá optar por promover a cobrança judicial da PERDA antes da fase executiva do processo; 
+
+5.7.3 A MILLIONS PAY também poderá recorrer aos seguintes meios para saldar o referido débito: (i) compensação de valores em outras Contas de mesma titularidade do PARCEIRO devedor, (ii) proceder na recuperação de Chargeback junto aos consumidores finais do PARCEIRO, com 100% dos valores das recuperações sendo retido, até o momento em que a Conta tenha saldo suficiente, (iii) emissão de boleto para pagamento, (iv) negativação nos órgãos de proteção ao crédito; (v) processo administrativo ou judicial, entre outros; 
+
+5.7.4 Esta operação, em hipótese alguma, caracteriza concessão de crédito, sendo certo que a existência de saldo negativo na Conta Virtual do PARCEIRO, importará em prejuízo direto e imediato à MILLIONS PAY, justificando a execução do título e/ou cobrança, além da apuração de perdas e danos. 
+
+5.8 A MILLIONS PAY não informará o PARCEIRO sobre a dedução do Crédito em seu favor. Ocorrendo a dedução do crédito na Conta Virtual, o PARCEIRO poderá solicitar à MILLIONS PAY informações sobre o ocorrido e está se obriga a fornecer, dentro do prazo de 7 (sete) dias úteis, aplicado ao caso: 
+
+Cópia de ata de audiência ou demonstração do acordo; 
+cópia dos comprovantes de pagamentos realizados em prol da solução do litígio; 
+Relatório descrevendo as razões do contingenciamento. 
+
+No caso de cartão de crédito a transferência dos valores para a Conta Bancária do PARCEIRO será eletrônica, através de Saque, em regra, após 14 (quatorze) dias, contados da data em que a MILLIONS PAY receber a confirmação de que a transação foi aprovada pelos participantes do arranjo de pagamento, mediante solicitação de Saque pelo PARCEIRO; 
+
+No caso de pagamentos realizados por meio de boleto bancário, o prazo de Saque será também de 14 (quatorze) dias, a contar da confirmação de pagamento; 
+
+No caso de pagamento por meio de PIX, o prazo de Saque será de 14 (quatorze) dias após a confirmação de pagamento nas seguintes hipóteses: 
+
+Para PARCEIRO sem transações realizadas na plataforma há mais de 30 (trinta) dias; 
+Para novo PARCEIRO, que tenham seu cadastro aprovado em um prazo inferior de 90 (noventa) dias os prazos acima poderão eventualmente aumentar e no caso de indisponibilidade ou instabilidade do sistema bancário o prazo também pode se estender. 
+
+Caso a transferência seja impossibilitada por motivo de força maior e/ou caso fortuito, não estará configurado o inadimplemento da MILLIONS PAY. O PARCEIRO isenta a MILLIONS PAY de qualquer responsabilidade em relação às transferências incorretas ou malsucedidas decorrentes do fornecimento de informações incorretas ou desatualizadas; 
+
+O PARCEIRO se declara ciente de que, uma vez transferidos os valores da Conta Virtual à Conta Bancária, tais pagamentos são definitivos e irreversíveis; 
+
+Os valores depositados na Conta Virtual do PARCEIRO não sofrerão qualquer correção monetária, qualquer tipo de atualização ou remuneração financeira, permanecendo inalterados por todo o prazo em que forem mantidos, independentemente do tempo que o PARCEIRO demore a solicitar a transferência dos valores para a sua “Conta Bancária”, sendo a MILLIONS PAY isenta de qualquer responsabilidade, por eventual perda de poder aquisitivo ou desvalorização monetária. 
+
+6 - DAS TARIFAS 
+
+6.1 Como remuneração ao serviço prestado, a MILLIONS PAY cobrará Tarifas sobre os valores recebidos pelo PARCEIRO. Serão cobradas: 
+
+Para transações em geral a remuneração deverá variar entre 2.99% mais R$ 1,00 (um real), até 15% mais R$ 1,00 (um real); a definição da porcentagem incidente sobre a operação será definida quando da contratação junto a MILLIONS PAY, e incluirá as tarifas devidas tanto à MILLIONS PAY quanto à ABMEX. 
+Em caso de antecipação de repasse (descrito no tópico Antecipação de Repasse, abaixo): o percentual adicional de 1% ao mês de antecipação. 
+
+Antes de solicitar a antecipação, o PARCEIRO poderá simular o valor e saber exatamente qual será a taxa cobrada; 
+
+As Tarifas serão descontadas automaticamente de cada pagamento recebido pelo Usuário; 
+
+Mensalmente, tanto a MILLIONS PAY quanto a ABMEX emitirão notas fiscais referentes à prestação do serviço; 
+
+As tarifas e os meios de pagamento poderão ser alterados conforme estratégia da MILLIONS PAY, a seu exclusivo critério, sem necessidade de notificação prévia aos USUÁRIOS. 
+
+7 - ANTECIPAÇÃO DE REPASSE 
+
+7.1 A antecipação de repasse é uma solução MILLIONS PAY, oferecida para que o PARCEIRO seja capaz de solicitar antecipadamente o Crédito de compras parceladas e/ou do prazo concedido para pagamento à vista da transação realizada junto ao Usuário Comprador; 
+
+7.2 A antecipação de repasse está sujeita à análise prévia, baseada em critérios próprios da MILLIONS PAY, em relação às Transações realizadas e da situação financeira do PARCEIRO, não havendo qualquer garantida a sua aprovação, não caracterizando operação de crédito e não incidindo taxa de juro de qualquer natureza; 
+
+7.3 Ainda que o PARCEIRO possua Transações a serem liquidadas pela MILLIONS PAY ou tenha tido antecipações anteriores aprovadas, a MILLIONS PAY não está obrigada a antecipar os repasses; 
+
+7.4 Quando houver compras parceladas, o Crédito poderá ser antecipado em sua conta MILLIONS PAY. Neste caso, o PARCEIRO poderá solicitar a antecipação somente de todas as parcelas, recebendo o Crédito mediante o pagamento das Tarifas devidas sobre o valor de cada parcela adiantada; 
+
+7.4 Pela antecipação das compras parceladas e antecipações de repasse, o PARCEIRO pagará uma Tarifa de antecipação, além da Tarifa por transação; 
+
+7.5 É considerado, para efeitos da Tarifa de antecipação de repasse, o período entre a data da efetivação da transferência do Crédito a ser realizada pela MILLIONS PAY ao PARCEIRO e a data original de vencimento da parcela objeto da antecipação. Esta Tarifa está sujeita a variações conforme condições de MERCADO, podendo sofrer alterações sem prévia comunicação ao PARCEIRO; 
+
+7.6 A Taxa de Antecipação será cobrada do PARCEIRO sobre o Valor Bruto, após descontadas As Tarifas e, adicionalmente, de forma única, antecipando- se todas as parcelas que eventualmente viriam a ser creditadas.  Confirmar; 
+
+7.7 A MILLIONS PAY poderá cancelar a antecipação de repasse disponibilizada ao PARCEIRO a qualquer momento e livre de qualquer ônus, nas hipóteses de ocorrência de fatos alheios que dificultem ou impossibilitem a operação da MILLIONS PAY, tornando indisponível a opção de antecipação de repasse em favor do PARCEIRO; 
+
+7.8 A MILLIONS PAY também poderá cancelar a adesão do PARCEIRO à antecipação de repasse, sem justificativa, mediante comunicação simples; 
+
+7.9 Para a efetivação da antecipação de repasse solicitada pelo PARCEIRO, a MILLIONS PAY poderá avaliar seu desempenho em relação ao número de cancelamentos, Chargeback e risco de crédito fornecido por agências de proteção ao crédito e outros mecanismos de avaliação de risco; 
+
+7.10 A MILLIONS PAY poderá recusar as solicitações de antecipação de repasse ao ser constatada qualquer alteração do desempenho que possa ocasionar eventual risco à MILLIONS PAY ou atividade suspeita por parte do PARCEIRO. 
+
+8 - DAS ATIVIDADES RESTRITAS 
+
+8.1 O PARCEIRO não poderá utilizar a Plataforma para desenvolver atividades ou comercializar bens e/ou serviços não autorizados por lei ou em desacordo com este Instrumento, entre eles, de forma exemplificativa, estão: 
+
+Produtos que façam alusão a armas de fogo, narcóticos, tóxicos e qualquer tipo de drogas ilegais, bem como a qualquer substância ilícita e/ou que dependa, necessariamente, de prescrição médica para seu consumo; 
+Qualquer produto e ou serviço que viole dados de terceiros; 
+Produtos subtraídos de terceiros, furtados ou roubados; 
+Produtos falsificados, adulterados, piratas e outros do gênero; 
+Ações de empresas negociadas em Bolsa de Valores; 
+Listas de correio ou bases de dados pessoais; 
+Produtos que violem a intimidade, a privacidade, a honra, a imagem, o nome ou qualquer outro direito de personalidade de terceiros, não se limitando a estes; h) Produtos relacionados à pedofilia, à prostituição ou similares; 
+Produtos que façam apologia do hábito de fumar; 
+Produtos que promovam esquemas de pirâmide, marketing multinível ou esquemas similares cujo funcionamento dependa, prioritariamente, de recursos financeiros aportados por novos participantes para remunerar participantes anteriores, de forma insustentável, gerando prejuízos aos participantes que entram por último; 
+Produtos que prometem sucesso em loterias, jogos de azar, bem como qualquer atividade ou prática que dependa de fatores relacionados sorte para seu sucesso; 
+Produtos que promovam a violência e/ou a discriminação baseada em questões de raça, sexo, religião, nacionalidade, orientação sexual ou de qualquer outro tipo; 
+Produtos que prometem o atingimento de qualquer tipo de resultado, seja de natureza física, mental ou de outra espécie, sem respaldo científico robusto e/ou reconhecimento pelos órgãos e entidades competentes; 
+n) Produtos que contenham músicas, imagens e vídeos em quaisquer formatos, quando eles não estão expressamente autorizados pelo titular dos direitos autorais;
+o) Produtos que violem direitos intelectuais de terceiros, tais como produtos que violem software, direitos autorais, patentes, marcas, modelos e desenhos industriais, especialmente produtos que contenham software para OEM, NFR, cópias e/ou arquivos de backup, licença, programas acadêmicos e/ou desenvolvidos para alguma entidade educacional, ou segredos industriais;
+p) Produtos afetados por alguma restrição de qualquer espécie quanto ao seu uso, exploração ou transferência de domínio ou posse; 
+q) Produtos que não apresentem, claramente, em sua oferta e divulgação, as disposições relacionadas a sua forma de aquisição e consumo, preço, contato de suporte, regras de reembolso, cancelamento, garantias, renovação, dentre outras informações exigidas por lei; 
+r) Produtos cujas características indiquem elevado potencial de fraude, prática de lavagem de dinheiro e financiamento do terrorismo ou atividades ilegais, tendo em vistas às normas aplicáveis e recomendações de órgãos nacionais e internacionais sobre o tema; 
+s) Produtos e cursos que garantam o seu reconhecimento pelos órgãos competentes (Ex. Ministério da Educação, Conselhos de Classe, etc.) sem a respectiva comprovação de tal reconhecimento; 
+t) produtos em que a discrepância entre o preço cadastrado e o valor efetivamente agregado e entregue ao comprador possam, em razão do nicho, natureza e peculiaridades do conteúdo, indicar fortes indícios de práticas abusivas e/ou irregulares; 
+u) Quaisquer outros produtos cuja venda, divulgação e/ou exploração seja expressamente proibida pelas leis vigentes no local da transação. 
+ 
+
+É vedado o uso da plataforma como ferramenta para ocultação, manejo, investimento ou aproveitamento de valores ou outros bens provenientes de atividades criminosas, ou para dar aparência de legalidade a recursos provenientes de tais atividades; 
+
+É expressamente proibido ao PARCEIRO realizar compras na Plataforma, utilizando seu próprio link de PARCEIRO, a partir de seu dispositivo (computador, celular, tablet), do mesmo IP ou da mesma rede de internet; 
+
+É expressamente proibido ao PARCEIRO, captar os dados do “Usuário/Comprador” e efetuar compras em seu nome (vendas por call center); 
+
+É expressamente proibida a utilização de outros meios de pagamentos no mesmo domínio do produto; 
+
+É expressamente proibida a prática de Cookie Stuffing, o usuário que violar essa regra será banido permanentemente da Plataforma; 
+
+A violação ao disposto nesta cláusula ensejará a rescisão imediata destes Termos, sem qualquer direito à indenização, compensação ou pagamento em favor do Usuário, com o cancelamento de seu login de Usuário, de sua Conta Virtual e a perda dos valores nela depositados, a título de multa, sem prejuízo da responsabilidade do Usuário, por eventuais perdas e danos causados. 
+
+9 - ANÁLISE DE RISCO 
+
+9.1 A MILLIONS PAY fará a apuração de eventuais fraudes nas Transações processadas em favor do PARCEIRO através de sistema informatizado de análise de risco próprio e ou de PARCEIROS; 
+
+9.2 Para que todas as “Transações” possam ser objeto de análise de risco, o PARCEIRO está ciente de que deverá solicitar ao Usuário Comprador no momento da compra todos os seguintes dados: a) Nome completo do comprador; b) E-mail do comprador; c) Número do cartão de crédito; d) Nome do portador do cartão de crédito; e) CPF do portador do cartão de crédito; f) Endereço completo de cobrança ou entrega; g) Data de nascimento; 
+
+9.3 A MILLIONS PAY poderá bloquear o saldo existente na Conta Virtual, a fim de resguardar-se contra eventuais cancelamentos, estornos, Chargebacks, penalidades e outras obrigações; 
+
+9.4 A análise de um eventual risco da Transação através de sistema informatizado é feita com base em padrões históricos e conferência dos dados cadastrais, podendo resultar numa probabilidade de que determinada transação seja fraudulenta, mas sempre estará sujeita a novos desenvolvimentos e alterações de parâmetros, independente de prévia comunicação aos Usuários; 
+
+9.5 Além do sistema informatizado, a MILLIONS PAY poderá fazer uso complementar de análise manual para recusar ou bloquear operações que, de acordo com seus próprios critérios, venha a ser considerada suspeita ou fraudulenta; 
+
+9.6 Por meio do seu processo de análise, a MILLIONS PAY pode recusar a aprovação de uma Transação, bloquear a realização de Saques ou bloquear Contas Virtuais, a qualquer tempo, mesmo após a confirmação de pagamento de uma transação, e independentemente de ter sido ou não aberta uma disputa, nos termos do item 11 abaixo, pelos Usuários, nas seguintes hipóteses, sem prejuízo de outras: 
+
+Se a MILLIONS PAY entender que há indícios de que o Usuário, o 
+produto/serviço ou a transação estão em desacordo com este Instrumento e com as demais políticas da MILLIONS PAY, constatar que as informações relativas à transação são incompletas, inverídicas ou imprecisas; 
+Se o PARCEIRO não prestar informações adequadas quando solicitado pela 
+MILLIONS PAY; 
+Se a MILLIONS PAY constatar que a transação expõe a risco excessivo os Usuários ou a própria MILLIONS PAY, em razão das características da transação, do Produto, dos volumes ou dos prazos de entrega; 
+Se a MILLIONS PAY observar que a adoção de quaisquer dessas medidas é necessária para proteger a segurança da própria MILLIONS PAY ou de seus empregados, colaboradores, representantes, agentes, sócios ou parceiros; 
+Se a MILLIONS PAY for incluída em qualquer processo judicial ou administrativo a respeito de uma Transação e o Usuário não tomar as medidas necessárias para excluir a MILLIONS PAY do respectivo processo, isentando-a de qualquer responsabilidade, conforme descrito neste Instrumento; 
+Se a MILLIONS PAY tomar conhecimento de que o Usuário deixou de atender a ordem de órgãos públicos; 
+Em cumprimento a qualquer exigência legal, decisão judicial ou determinação de autoridade pública competente dirigida à MILLIONS PAY; 
+Se a MILLIONS PAY verificar a existência de valores vencidos e não pagos pelo Usuário. 
+
+A MILLIONS PAY não reconhecerá qualquer Transação em caso de Chargeback ou bloqueio de pagamentos; 
+
+A MILLIONS PAY não está obrigada, em hipótese alguma, a contestar os pedidos de bloqueio de pagamento e Chargeback apresentados pelos Usuários Compradores, por instituições financeiras, pelas operadoras de cartões de crédito ou por qualquer outra instituição. Além do que, a MILLIONS PAY deduzirá as operações com Chargeback ou bloqueio de pagamento efetivados dos valores devidos aos PARCEIROS; 
+
+Eventuais contestações realizadas por mera liberalidade, não obrigam a MILLIONS PAY em casos futuros; 
+
+Caso a taxa de Chargeback, de devoluções e/ou cancelamentos da conta do Usuário seja superior 1,5% (um vírgula cinco por cento), a MILLIONS PAY reserva o direito de bloquear o saldo da conta total ou parcialmente por até 180 (cento e oitenta) dias, para cobrir eventuais reembolsos e Chargebacks. O mencionado prazo poderá ser prorrogado de acordo com a necessidade julgada pela plataforma; 
+
+Caso existam indícios ou suspeita de muitos novos Chargebacks, devoluções ou cancelamentos iminentes, e a MILLIONS PAY identifique risco de aumento futuro da taxa de Chargeback, devoluções ou cancelamentos para acima de 1% (três por cento), seja por motivo de suspeita de fraude, ou por motivo de baixa satisfação dos Usuários Compradores, a MILLIONS PAY reserva o direito de cancelar e reembolsar parte ou todas as vendas da conta do PARCEIRO, devolvendo o dinheiro aos Usuários Compradores; 
+
+A MILLIONS PAY poderá também aumentar a taxa de seus serviços caso o chargeback do usuário se mantenha alto por um período consecutivo de 90 (noventa) dias; 
+
+Em caso de cancelamento da Transação pelo próprio PARCEIRO, este ainda estará obrigado ao pagamento das Tarifas pelo serviço prestado, podendo o valor devido ser descontado de outras transações; 
+
+A MILLIONS PAY poderá bloquear o acesso à Conta Virtual, ou limitar a transferência para “Conta Bancária” dos recursos disponíveis, caso haja suspeita de fraude pelo PARCEIRO e identifique qualquer risco operacional em decorrência de sua conduta. Neste caso, a MILLIONS PAY terá o prazo de 180 dias, renovável por igual período, para analisar o caso, período pelo qual os valores disponíveis na Conta Virtual do PARCEIRO ficarão bloqueados; 
+
+Eventualmente, enquanto pendente de análise, a MILLIONS PAY também poderá suspender o acesso do Usuário à Plataforma; 
+
+Caso a MILLIONS PAY constate a ocorrência de fraude pelo PARCEIRO, além de se obrigar a suportar as custas, prejuízos e outras despesas – “PERDAS” –, pagará à MILLIONS PAY, a título de multa, o valor equivalente a 10% do montante transacionado nos últimos 12 doze meses na Plataforma nas operações em que participou: 
+
+9.16.1 O PARCEIRO AUTORIZA a MILLIONS PAY a subtrair do crédito de sua Conta Virtual o montante correspondente à multa. 
+
+- DA RELAÇÃO ENTRE OS "USUÁRIOS"   
+
+Mecanismos de Denúncias: 
+
+A MILLIONS PAY tem 2 (dois) canais para que quaisquer interessados possam reportar violação de direitos e outras irregularidades na Plataforma, inclusive infrações a estes Termos e às Políticas da MILLIONS PAY. Essas denúncias são apuradas com rigor, e podem resultar em consequências diversas aos envolvidos. Por isso, é muito importante que o canal de atendimento seja utilizado com ética; 
+
+Em caso de dúvida sobre a ocorrência de infração, recomendamos que busque orientação jurídica antes de enviar qualquer notificação, além de avaliar se existem formas de provar o que pretende informar. 
+
+Denúncias sobre violação a direitos de propriedade intelectual: 
+
+Se a sua denúncia for relativa a violação de direitos de propriedade intelectual, você deve seguir todas as orientações dos canais, incluindo o compartilhamento de informações capazes de provar os fatos denunciados, em especial: a) Suas informações de contato, para que possamos nos comunicar com você; b) Informações sobre o conteúdo denunciado, com o detalhamento do ocorrido e os documentos demonstrativos dos fatos narrados, no que for possível; c) Informações sobre a titularidade dos direitos de propriedade intelectual que possam ter sido violados; 
+
+A denúncia deve ser enviada pela pessoa cujos direitos de propriedade intelectual foram violados, ou por representante munido de procuração com poderes para tanto. A MILLIONS PAY não aceita denúncias enviadas por terceiros; 
+
+Ao encaminhar uma denúncia, o denunciante declara estar ciente e concorda que a MILLIONS PAY compartilhará suas informações com o denunciado, e que o denunciado poderá contatar o denunciante para esclarecer os fatos e dirimir a questão; 
+
+No prazo de 10 dias contados do encaminhamento da denúncia pela MILLIONS PAY, o denunciado pode apresentar a sua defesa, informando os motivos que desqualificam a denúncia apresentada e comprovando a titularidade do direito supostamente violado. O denunciado deve enviar: 
+Informações de contato;  
+Informações sobre o conteúdo denunciado;  
+Informações sobre a titularidade dos direitos de propriedade intelectual sobre o produto/serviço denunciado, incluindo a documentação comprobatória pertinente;  
+Declaração de discordância sobre a denúncia de violação a direitos de propriedade intelectual, responsabilizando-se por quaisquer danos causados pela continuidade da comercialização ou do acesso ao produto/serviço objeto da denúncia. 
+
+Denúncias sobre divulgação de cenas de nudez ou atos sexuais de caráter privado: 
+
+Se a sua denúncia for relativa a violação da intimidade decorrente da divulgação, sem autorização de seus participantes, de imagens, de vídeos ou de outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado, a MILLIONS PAY promoverá a indisponibilização desse conteúdo, no âmbito e nos limites técnicos do seu serviço, de forma diligente, em até 10 dias corridos da data do recebimento pela MILLIONS PAY de todas as informações necessárias para que a MILLIONS PAY possa tomar essa providência; 
+
+Para isso, você deve indicar precisamente: a) URL onde está o material objeto da denúncia; b) Os meios que possibilitem à MILLIONS PAY identificar a vítima no material denunciado, conforme sua descrição; 
+
+É possível denunciar apenas conteúdo que envolva você, um familiar ou outra pessoa de quem você seja o representante legal, com as comprovações de vínculo ou parentesco. Materiais que envolvam outras pessoas devem ser denunciados por elas, seus familiares ou responsáveis. 
+
+Providências a serem adotadas pela MILLIONS PAY: 
+
+Qualquer denúncia deve ser encaminhada contendo todas as informações exigidas nos itens anteriores. A MILLIONS PAY não iniciará qualquer processo de verificação se verificar a ausência de qualquer daquelas informações. 
+
+Vedação ao anonimato: 
+
+A MILLIONS PAY não dará prosseguimento a denúncias anônimas. 
+
+Responsabilidade do denunciante: 
+
+O envio intencional de denúncias falsas ou enganosas pode levar à aplicação de qualquer das medidas previstas no item “Do bloqueio da Conta Virtual do usuário” destes Termos, inclusive o bloqueio e/ou exclusão definitiva de conta, se o denunciante for Usuário da Plataforma, além da sua responsabilidade por danos, de acordo com a legislação aplicável; 
+
+Esclarecemos que denunciantes de má-fé podem ser investigados pelas autoridades competentes e que a MILLIONS PAY cooperará com as investigações oficiais nesse sentido; 
+
+O denunciante responde integralmente por quaisquer danos que causar ao denunciado, à MILLIONS PAY ou a terceiros em razão de denúncias infundadas, principalmente nos casos em que a MILLIONS PAY, diante da denúncia, e a seu exclusivo critério, bloquear preventiva ou definitivamente a comercialização ou o acesso a um produto/serviço. 
+
+Processo de Apuração de Denúncias: 
+
+Se a MILLIONS PAY entender que uma denúncia não tem fundamentos ou elementos de prova suficientes para iniciar processo interno de apuração, poderá arquivar a denúncia e encerrar a ocorrência reportada; 
+
+Se a MILLIONS PAY entender que a apuração dos fatos é necessária, e desde que a denúncia não tenha trazido elementos e provas incontestáveis sobre a sua procedência, ela pode encaminhar a denúncia ao denunciado ou ao responsável pelo produto/serviço denunciado, sem prejuízo de a MILLIONS PAY adotar, preventivamente e a seu exclusivo critério, quaisquer das medidas previstas no item “Do bloqueio da Conta Virtual do usuário” destes Termos, de modo isolado ou cumulativo; 
+
+Se requerido, o denunciado pode responder a denúncia em até 5 (cinco) dias contados do seu encaminhamento pela MILLIONS PAY. Nesse caso, denunciado deve enviar: a) Informações de contato; b) Informações sobre o conteúdo denunciado; c) Informações sobre a titularidade dos direitos de propriedade intelectual sobre o Produto denunciado, incluindo a documentação comprobatória pertinente; d) Declaração de discordância sobre a denúncia de violação a direitos de propriedade intelectual, responsabilizando-se por quaisquer danos causados pela continuidade da comercialização ou do acesso ao Produto objeto da denúncia; 
+
+A MILLIONS PAY pode iniciar procedimento de investigação interna, a qualquer tempo, sempre que entender necessário à apuração dos fatos denunciados, sobretudo diante: a) De reclamações cujo esclarecimento seja capaz de solucionar a potencial disputa entre os Usuários; b) De fatos que não tenham sido narrados de forma clara, mas que tragam indícios de irregularidades praticadas pelo denunciado ou; c) De denúncias com inconsistências ou indícios indicativos de má-fé, fraude ou dolo do denunciante; 
+Os resultados das investigações internas conduzidas pela MILLIONS PAY poderão ser compartilhados com as autoridades competentes, sempre que exigido por lei ou necessário; 
+
+Se o compartilhamento não for obrigatório por lei, cabe exclusivamente à MILLIONS PAY definir se irá divulgar ou não quaisquer resultados de sua apuração. 
+
+Avaliação das Denúncias pela MILLIONS PAY. 
+
+Se o denunciado não responder a denúncia em 10 (dez) dias, a MILLIONS PAY pode aplicar, em caráter definitivo, quaisquer das medidas previstas no item “Do bloqueio da Conta Virtual do usuário” destes Termos, de modo isolado ou cumulativo, se entender cabíveis, dando ciência ao denunciante e comunicando as medidas ao Usuário afetado; 
+
+A MILLIONS PAY também pode aplicar quaisquer das medidas previstas no item “Do bloqueio da Conta Virtual do usuário” destes Termos, de modo isolado ou cumulativo, se, diante da resposta do denunciado, concluir que houve infração aos Termos, violação de direitos ou outras irregularidades praticadas na Plataforma; 
+
+Se a MILLIONS PAY, por si ou por terceiros por ela determinados, entender que a questão denunciada é razoavelmente controversa, a MILLIONS PAY pode instaurar um procedimento de solução de disputas entre os Usuários. 
+
+Solução de Disputas entre Usuários: 
+
+A Plataforma da MILLIONS PAY foi desenvolvida para conectar os Usuários entre si. As disputas que surgem dessas relações devem ser resolvidas entre os Usuários diretamente, inclusive aquelas relativas à qualidade, às garantias e aos aspectos técnicos dos Produtos; 
+
+Com o intuito de facilitar o diálogo para solução de disputas, além do canal de denúncias, a MILLIONS PAY oferece serviço de suporte aos Usuários, sem custo, e que atende por meio do Canal de Solicitações. Uma vez acionado, o serviço de suporte pode entrar em contato com os Usuários envolvidos numa disputa; 
+
+Você concorda que deve aplicar seus melhores esforços para responder aos chamados do serviço de suporte, com foco na solução do problema, no menor tempo possível e dentro dos prazos estabelecidos pela MILLIONS PAY; 
+Se não for possível a composição entre os Usuários acerca de uma disputa, a MILLIONS PAY pode (mas não se obriga a) encerrar a disputa mediante decisão própria, pautada na boa-fé e em parâmetros de equidade, considerando as regras destes Termos e das políticas da MILLIONS PAY; 
+
+A MILLIONS PAY pode delegar a solução de qualquer disputa a terceiros por ela determinados, inclusive mecanismos de autorregulamentação; 
+
+A decisão da MILLIONS PAY a respeito da disputa, ou de quem ela designar, deve ser acatada de modo integral e irrecorrível pelos Usuários envolvidos; 
+
+A MILLIONS PAY não disponibiliza serviço de atendimento ao consumidor para resolver problemas relativos aos produtos/serviços, o que é de responsabilidade integral dos PARCEIROS; 
+
+A MILLIONS PAY solicita aos PARCEIROS que informem os seus dados para contato de modo que fiquem expostos no site, checkout e/ou e-mail de confirmação de compra do usuário. As reclamações feitas perante o Canal de Solicitações referentes a vícios, defeitos, especificação, erros do produto/serviço serão encaminhados ao PARCEIRO; 
+
+É estritamente proibido ao PARCEIRO usar o nome da MILLIONS PAY para atendimento, envio de mensagem e suporte pessoal; 
+
+É de única e exclusiva responsabilidade do PARCEIRO responder todas as solicitações de estorno realizadas pelo Usuário Comprador, obedecendo o prazo máximo de até 02 (dois) dias úteis para a resposta da solicitação, bem como deverá encaminhar a cópia e comprovante de envio ao Usuário Comprador para a MILLIONS PAY, através do e-mail suporte@sejamillionspay.com; 
+
+A omissão do PARCEIRO nos casos de estorno e outras solicitações realizadas pelo Usuário Comprador, seja, em virtude de vícios no produto e ou serviços e não se limitando a estes, acarretará o bloqueio da Conta Virtual. Caso não haja resposta, a MILLIONS PAY cancelará de forma automática a transação e, havendo saldo disponível da Conta Virtual, realizará o reembolso ou estorno da compra ao Usuário Comprador, independente do produto já ter sido enviado ou entregue; 
+
+Caso o Consumidor apresente uma solicitação contra o PARCEIRO no site “Reclame Aqui”, este se obriga no prazo de 2 (dois) dias úteis, para apresentar sua resposta ao Consumidor, bem como deverá comprovar o envio informá-la à MILLIONS PAY através do e-mail suporte@sejamillionspay.com”; 
+Se no prazo estipulado, o PARCEIRO não apresentar sua resposta ao Consumidor, havendo saldo disponível da Conta Virtual, a MILLIONS PAY irá cancelar imediatamente a transação, efetuando o reembolso ou estorno da compra, independente do produto já ter sido enviado ou entregue; 
+
+Caso seja solicitado o estorno e o usuário estiver negativado na plataforma, o cliente final será encaminhado diretamente para o produtor; 
+
+A MILLIONS PAY poderá, a seu critério, adotar outras formas de contato, como ligação telefônica, mensagem via aplicativos, como WhatsApp, email, a fim de facilitar o processo de comunicação entre os Usuários. Contudo, isto não afastará a obrigação do PARCEIRO responder às solicitações feitas a ele, utilizando o Canal Oficial da Plataforma; 
+
+O PARCEIRO se obriga a realizar o cancelamento ou aceitar a devolução da compra, decorrente do exercício do direito de arrependimento (artigo 49 do Código de Defesa do Consumidor), praticado pelo “Usuário/Consumidor”. Após a omissão do PARCEIRO facultará à MILLIONS PAY o cancelamento, estorno e/ou reembolso da compra, nos mesmos termos referidos nos parágrafos anteriores. Em caso de qualquer cancelamento, devolução, estorno ou reembolso ao Usuário Comprador, os valores referentes que já tenham sido pagos ao PARCEIRO, serão descontados da Conta Virtual e, caso não haja saldo suficiente, serão realizados descontos futuros ou será cobrado pela MILLIONS PAY diretamente do PARCEIRO; 
+
+O PARCEIRO é o único e exclusivo responsável pela entrega de produtos físicos; 
+
+O PARCEIRO é o único e exclusivo responsável pelo envio dos dados de acesso (login e senha), de produtos digitais (tais como vídeo aulas, cursos), disponibilizados em área de membros, por ele administrada. 
+
+Comercialização de Produtos físicos e digitais: 
+
+Os produtos digitais, como e-book e vídeo aulas, serão enviados, exclusivamente, para o endereço de e-mail informado pelo PARCEIRO, no momento da compra. Os produtos físicos serão enviados conforme anunciado pelo PARCEIRO; 
+
+Caso o produto não seja entregue, por culpa do Usuário Comprador (exemplo: informar endereço errado ou incompleto, não ter alguém no endereço para receber o produto), o PARCEIRO, a seu critério, poderá cobrar o novo frete; 
+
+Caso o endereço indicado para entrega do produto, seja considerado pelos Correios como: “área com distribuição sujeita a prazo diferenciado/restrição de entrega domiciliar temporária”, o Usuário Comprador deverá ser orientado a retirar o produto na agência dos Correios para a qual o produto foi enviado; 
+
+As Transações realizadas por meio de cartão de crédito serão estornadas junto a operadora do cartão de crédito do Consumidor. Por sua vez, as “Transações” realizadas por outros meios (boleto bancário, PIX e etc), serão reembolsadas por meio de transferência (TED, PIX ou DOC), para a conta indicada pelo Usuário Comprador; 
+
+O PARCEIRO se compromete em realizar o estorno ou reembolso no prazo máximo de 07 (sete) dias úteis. O procedimento de lançamento do estorno, na fatura de cartão de crédito, varia de acordo com a operadora do cartão. As Transações realizadas via cartão de crédito cujo pagamento tenha sido realizado há mais de 120 (cento e vinte) dias NÃO serão estornados pela MILLIONS PAY, devendo elas serem feitas diretamente ao/pelo PARCEIRO; 
+
+O parceiro declara estar ciente e concordar que a MILLIONS PAY, se requerido pelo Consumidor, poderá repassar seus dados cadastrais (endereço, CPF, CNPJ, e-mail, telefone), em caso de disputa. 
+
+11 - DAS OBRIGAÇÕES DA MILLIONS PAY 
+
+11.1 Sem prejuízo das demais obrigações decorrentes deste Termo, a MILLIONS PAY obriga-se a: 
+
+Prestar os Serviços por meio de conexões seguras; 
+Seguir a legislação e regulamentos pertinentes à prestação dos serviços. 
+
+11.1.1 Da limitação de responsabilidade: 
+
+A MILLIONS PAY não se responsabiliza por falhas de sistema, causados por eventos de força maior ou caso fortuito, que atrasem ou impeçam a realização de “Transações” em sua Plataforma; 
+
+A MILLIONS PAY não se responsabiliza pela logística, dados de envio ou de acesso de produtos físicos, bem como pelo envio de dados de acesso de produtos digitais, o envio de tais dados é de responsabilidade única e exclusiva do Produtor e/ou Distribuidor; 
+
+
+A MILLIONS PAY não se responsabiliza pelo conteúdo do produto e da página de vendas de seus Usuários. Assim, a MILLIONS PAY não se responsabiliza quanto aos riscos, nocividade, periculosidade, defeitos, vícios de qualidade, vícios de quantidade, insuficiência, inadequação de informações, publicidade enganosa e/ou abusiva, do produto e/ou serviço adquirido; 
+
+Caso seja verificado que o conteúdo do produto ou de sua página de vendas viola direitos autorais, direitos de imagem, voz, intimidade ou de propriedade industrial (marca, patente, desenhos industriais), a MILLIONS PAY poderá suspender, bloquear e remover a Conta do PARCEIRO; 
+
+A MILLIONS PAY não se responsabiliza pelas obrigações tributárias decorrentes das “Transações” realizadas entre PARCEIRO e “Usuário/Comprador”; 
+
+A MILLIONS PAY não é responsável por eventuais contestações, “Chargebacks” ou bloqueios de pagamento efetuados pelo Usuário Comprador; 
+
+A MILLIONS PAY não é responsável por pedidos de estorno realizados pelo “Usuário/Comprador” em “Transações” realizadas via cartão de crédito com pagamento realizado há mais de 120 dias devem ser realizados diretamente ao PARCEIRO; 
+
+A MILLIONS PAY não é responsável por pedidos de estorno realizados por Usuário Comprador em “Transações” realizadas a mais de 120 (cento e vinte) dias; 
+
+A MILLIONS PAY não possui qualquer responsabilidade pela veracidade dos dados fornecidos pelos “Usuários”, bem como por eventuais danos decorrentes da inexatidão e/ou desatualização de tais informações. 
+
+11.2 Do prazo e da rescisão: 
+
+Este Contrato vigerá por prazo indeterminado, podendo ser rescindido por qualquer uma das Partes em qualquer momento; 
+
+A MILLIONS PAY reserva-se no direito de rescindir automaticamente o presente Termo, sem que seja devida qualquer indenização ao Usuário, a qualquer momento, caso haja o descumprimento de qualquer uma de suas cláusulas; 
+
+Em caso de rescisão antecipada, a MILLIONS PAY está autorizada a debitar da Conta Virtual do PARCEIRO quaisquer valores necessários para quitar eventuais prejuízos por ele à terceiros; 
+
+Em caso de suspeita de fraude, a MILLIONS PAY poderá suspender preventivamente a Conta Virtual do PARCEIRO; 
+
+Confirmada a fraude, a MILLIONS PAY poderá bloquear e excluir a Conta Virtual, sem que seja devida comunicação prévia, podendo reter os valores disponíveis e futuros, a fim de ressarcir eventuais prejuízos causados a terceiros e a ela. 
+
+11.3 Do bloqueio da Conta Virtual do Usuário 
+
+12.3.1 São causas, exemplificativas, de suspensão, bloqueio e exclusão da Conta do Usuário Produtor: 
+
+a) Qualquer ato que cause danos à honra, imagem e moral de colaboradores da MILLIONS PAY, seja ofensas, calúnias, palavras ofensivas, atos de desrespeitos, não se limitando a estes; 
+b) Violação ao disposto nos conteúdos proibidos; 
+A violação ou tentativa de violação das medidas de segurança da 
+Plataforma; 
+A inconsistência dos dados cadastrais do Usuário; 
+A prática de SPAM; 
+A realização de compras utilizando o próprio link de afiliado. 
+
+11.3.2 Verificada a prática de tais condutas ou outras que violem estes Termos, os Termos de Compra ou as Políticas e Privacidade, a MILLIONS PAY poderá, imediatamente, realizar o bloqueio da Conta Virtual do Usuário, retendo os valores nela existentes, até a apuração dos fatos; 
+
+11.3.3 A apuração dos fatos deverá ser realizada em até 90 (noventa) dias úteis; 
+
+11.3.4 Efetuado o bloqueio da Conta Virtual do Usuário, a MILLIONS PAY deverá notificá-lo, por e-mail, justificando o motivo do bloqueio; 
+
+11.3.5 Os pedidos de “Chargebacks” podem ser feitos em até 365 (trezentos e sessenta e cinco) dias após o dia da Transação, variando de acordo com a política interna de cada operadora de cartão de crédito, a MILLIONS PAY não possui autonomia sobre elas. Assim, após o encerramento da Conta Virtual do Usuário, podem surgir débitos decorrentes de “Chargebacks”; 
+
+11.3.6 Em qualquer hipótese de rescisão, o Usuário concorda desde já que sua Conta Virtual será encerrada, não podendo o Usuário iniciar novas “Transações” pela plataforma; 
+
+11.3.7 Nos casos de suspensão do acesso à conta do Usuário Afiliado e Usuário Produtor, “Transações” relacionadas àquela conta poderão continuar a ser realizadas, porém, o usuário não terá acesso a qualquer funcionalidade da conta, exemplo: nenhuma alteração poderá ser realizada nos dados cadastrais, dados bancários ou nos conteúdos cadastrados, tampouco poderá ser feito qualquer resgate de valores acumulados na respectiva conta; 
+
+11.3.8 Caso a MILLIONS PAY suspeite ou tenha indícios de que o Usuário Afiliado e/ou Usuário Produtor esteja usando de mecanismos para fraudar o sistema de rastreamento de afiliados ou utilizando qualquer outro mecanismo de fraude, a MILLIONS PAY reserva-se o direito de suspender imediatamente o acesso à conta do PARCEIRO suspeito de fraude e, eventualmente, bloquear em definitivo a conta, sendo certo que o saldo de valores a receber deste PARCEIRO poderá ser retido pela MILLIONS PAY, como ressarcimento parcial dos danos que tiver experimentado, ou entregue a terceiros prejudicados, mediante ordem judicial; 
+
+11.3.9 A MILLIONS PAY ou qualquer terceiro prejudicado poderão tomar as ações legais cabíveis em decorrência dos delitos ou contravenções de que sejam vítimas, ou ainda buscar o ressarcimento pelos prejuízos civis por descumprimento dos Termos de Uso, sem que isso acarrete qualquer direito de indenização por parte da MILLIONS PAY ao terceiro prejudicado. 
+
+11.4 Isenção de responsabilidade da plataforma 
+
+11.4.1 Nos casos em que um ou mais “USUÁRIOS” ou algum terceiro inicie qualquer tipo de disputa, reclamação ou ação legal contra outro ou outros “USUÁRIOS”, todos os “USUÁRIOS” envolvidos nas disputas, reclamações ou ações eximem de toda responsabilidade a MILLIONS PAY e a seus diretores, gerentes, empregados, agentes, operários, representantes e procuradores, inclusive no que tange os custos e honorários incorridos pelos “USUÁRIOS” para promover as disputas, reclamações ou ações; 
+
+11.4.2 O Usuário/Comprador e PARCEIRO isentam a MILLIONS PAY de qualquer responsabilidade quanto a “Transações” realizadas a mais de 120 (cento e vinte) dias. A MILLIONS PAY e empresas do grupo, não são responsáveis por danos e prejuízos financeiros, materiais e morais, diretos ou indiretos, inclusive lucros cessantes, bem como danos físicos eventualmente sofridos pelos “USUÁRIOS”. 
+
+12- DA PROPRIEDADE INTELECTUAL 
+
+12.1 O PARCEIRO reconhece que, ao aceitar estes Termos de Uso, a MILLIONS PAY lhe concederá uma licença de uso, não exclusiva, da sua Plataforma, e que o domínio https://appmillionspay.com.br, seu logotipo, sistema, interface, web, bem como todas as ferramentas desenvolvidas em sua Plataforma são de propriedade exclusiva da MILLIONS PAY, sendo vedado o seu uso sem autorização; 
+
+12.2 Alguns direitos de uso podem ser cedidos pela MILLIONS PAY em contrato ou licença especial, que pode ser cancelada a qualquer momento se não forem cumpridos os seus termos. 
+
+13- DAS DISPOSIÇÕES GERAIS 
+
+13.1 Não é permitido ao PARCEIRO ceder os direitos e obrigações deste Termo; 
+
+13.2 A MILLIONS PAY reserva-se no direito de ceder os direitos e obrigações deste Instrumento a terceiros sem a autorização prévia dos “Usuários”, ressalvada, inclusive, a possibilidade de parte da operação ser executada por Parceiros, com a emissão direta dos documentos fiscais competentes ao Usuário Afiliado e/ou Usuário Produtos, como regido neste instrumento; 
+
+13.3 A tolerância de uma das Partes, relativamente ao descumprimento de qualquer das obrigações da outra, não será considerada novação ou renúncia a qualquer direito, constituindo mera liberalidade, que não impedirá a Parte tolerante de exigir da outra seu cumprimento, a qualquer tempo; 
+
+13.4 Caso haja a necessidade de se recorrer a meios judiciais para dirimir qualquer dúvida ou questão relativa ao presente Termo, a parte vencida responderá pelas despesas do processo e pelos honorários advocatícios; 
+
+13.5 As partes elegem comarca de Curitiba/PR para dirimir quaisquer controvérsias oriundas do presente Termo, à exclusão de qualquer outro por mais privilegiado que seja. 
+
+14- DOS CANAIS DE ATENDIMENTO 
+
+14.1 Em caso de dúvidas, reclamações, sugestões, o Usuário poderá entrar em contato com o Suporte MILLIONS PAY, pelo e-mail: suporte@sejamillionspay.com, nossos atendentes estarão disponíveis de segunda a sexta-feira, das 09h00 às 18h00. 
+
+

@@ -1,9 +1,9 @@
-# Checkout SDK implementation
+# Millionspay landing page
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sacmillionspay-alts-projects/v0-checkout-sdk-implementation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/oqpJ6b8YDsP)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/yanmartins1410-3433s-projects/v0-millionspay-landing-page)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lch3uXACUCi)
 
 ## Overview
 
@@ -14,13 +14,13 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/sacmillionspay-alts-projects/v0-checkout-sdk-implementation](https://vercel.com/sacmillionspay-alts-projects/v0-checkout-sdk-implementation)**
+**[https://vercel.com/yanmartins1410-3433s-projects/v0-millionspay-landing-page](https://vercel.com/yanmartins1410-3433s-projects/v0-millionspay-landing-page)**
 
 ## Build your app
 
 Continue building your app on:
 
-**[https://v0.app/chat/oqpJ6b8YDsP](https://v0.app/chat/oqpJ6b8YDsP)**
+**[https://v0.app/chat/lch3uXACUCi](https://v0.app/chat/lch3uXACUCi)**
 
 ## How It Works
 
